@@ -59,49 +59,38 @@ const dishes = [
     id: "eaa",
     filename: "espaguete.png",
     dishname: "Espaguete ao alho",
-    author: "Júlia Kinoto"
+    author: "Júlia Kinoto",
   },
   {
     id: "lmc",
     filename: "lasanha.png",
     dishname: "Lasanha mac n’ cheese",
-    author: "Juliano Vieira"
+    author: "Juliano Vieira",
   },
   {
     id: "dpc",
     filename: "doce.png",
     dishname: "Docinhos pão-do-céu",
-    author: "Ricardo Golvea"
+    author: "Ricardo Golvea",
   },
   {
     id: "afb",
     filename: "asinhas.png",
     dishname: "Asinhas de frango ao barbecue",
-    author: "Vania Steroski"
+    author: "Vania Steroski",
   },
-]
+];
 
-/*console.table(dishes)*/
-
-const modalOverlay = document.querySelector('.modal-overlay')
-
-/* gets collection*/
-
-document.querySelector(".close-modal").addEventListener("click", function() {
-  modalOverlay.classList.remove("active")
-  modalOverlay.querySelector("img").src = ""
-})
-
-const cards1 = document.querySelector('.cards')
-const allcards1 = document.querySelector('.allcards')
+const cards1 = document.querySelector(".cards");
+const allcards1 = document.querySelector(".allcards");
 
 /* favorites only */
 
 if (cards1) {
-
-cards1.innerHTML = dishes.map(item => {
-  if (item.favorite) {
-  return `
+  cards1.innerHTML = dishes
+    .map((item) => {
+      if (item.favorite) {
+        return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
         <img src="foodassets/${item.filename}" alt="${item.dishname}">
@@ -113,18 +102,18 @@ cards1.innerHTML = dishes.map(item => {
         <p>${item.author}</p>
       </div>
     </div>
-  `
-    }
-  }).join("")
-
+  `;
+      }
+    })
+    .join("");
 }
 
 /*all dishes */
 
 if (allcards1) {
-
-  allcards1.innerHTML = dishes.map(item => {
-    return `
+  allcards1.innerHTML = dishes
+    .map((item) => {
+      return `
       <div class="card" id="${item.id}">
         <div class="card__image-container">
           <img src="foodassets/${item.filename}" alt="${item.dishname}">
@@ -136,21 +125,22 @@ if (allcards1) {
           <p>${item.author}</p>
         </div>
       </div>
-    `
-    }).join("")
+    `;
+    })
+    .join("");
 }
 
-const cards = document.querySelectorAll('.card')
+const cards = document.querySelectorAll(".card");
 
 for (let card of cards) {
-  card.addEventListener("click", function() {
-    const filename = card.querySelector("img").getAttribute("src")
-    const dishname = card.querySelector(".card__content").querySelector("p").innerHTML
-    const author   = card.querySelector(".card__info").querySelector("p").innerHTML
+  card.addEventListener("click", function () {
+    const filename = card.querySelector("img").getAttribute("src");
+    const dishname = card.querySelector(".card__content").querySelector("p").innerHTML;
+    const author = card.querySelector(".card__info").querySelector("p").innerHTML;
 
-    modalOverlay.classList.add('active')
-    modalOverlay.querySelector("img").src = filename
-    modalOverlay.querySelector("h1").innerText = dishname
-    modalOverlay.querySelector("span").innerText = `por ${author}`
-  })
+    modalOverlay.classList.add("active");
+    modalOverlay.querySelector("img").src = filename;
+    modalOverlay.querySelector("h1").innerText = dishname;
+    modalOverlay.querySelector("span").innerText = `por ${author}`;
+  });
 }

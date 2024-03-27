@@ -42,11 +42,17 @@ select {
   font-family: inherit;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 940px) {
+  .cards,
+  .allcards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   .inner-body {
     padding-left: 230px;
     padding-right: 230px;
   }
+
   .admin_content {
     padding-left: 230px;
     padding-right: 230px;
@@ -55,8 +61,16 @@ select {
   header.admin {
     padding-left: 230px;
   }
+
   .links.admin {
     padding-right: 230px;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .cards,
+  .allcards {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -179,23 +193,14 @@ header.admin .links a.active {
 }
 
 .banner {
-  width: 940px;
-  height: 366px;
+  max-width: 940px;
+  height: 160px;
   position: relative;
   top: 0;
   opacity: 1;
   background-color: var(--color-cream);
-  margin: 5vh 0;
+  margin: 1vh 0;
   border-radius: 50px;
-}
-
-#banner_img {
-  padding-top: 66px;
-  padding-left: 624px;
-  border-radius: 5%;
-  height: 300px;
-  width: 216px;
-  position: absolute;
 }
 
 #banner_text {
@@ -203,7 +208,7 @@ header.admin .links a.active {
 }
 
 #banner_text h1 {
-  padding-top: 117px;
+  padding-top: 17px;
   padding-left: 60px;
   font-size: 32px;
   line-height: 38px;
@@ -416,7 +421,7 @@ ul li::before {
   max-width: 940px;
   margin: 0 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+
   gap: 20px;
   padding-top: 25px;
   grid-auto-rows: min-content;
