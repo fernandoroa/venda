@@ -1,7 +1,7 @@
 const objects = [
   {
     id: "ferro",
-    filename: "ferro.png",
+    filename: "ferro.jpeg",
     object_name: "Ferro Black&Decker 560",
     description: "Vapor",
     value: "40 R",
@@ -10,7 +10,7 @@ const objects = [
   },
   {
     id: "chaves",
-    filename: "chaves.png",
+    filename: "chaves.jpeg",
     object_name: "Pindurador de chaves",
     description: "Madeira, rustico",
     value: "30 R",
@@ -19,7 +19,7 @@ const objects = [
   },
   {
     id: "furadeira",
-    filename: "furadeira.png",
+    filename: "furadeira.jpeg",
     description: "+ brocas",
     object_name: "Furadeira Tramontina 500W 220V",
     value: "100 R",
@@ -28,16 +28,16 @@ const objects = [
   },
   {
     id: "colchaosolteiro",
-    filename: "colchaosolteiro.png",
+    filename: "colchaosolteiro.jpeg",
     description: "Quechua/Decathlon",
     object_name: "Colchão inflável solteiro",
     value: "70 R",
-    status: "disponível",
+    status: "vendido",
     category: "outros",
   },
   {
     id: "climatizador",
-    filename: "climatizador.png",
+    filename: "climatizador.jpeg",
     object_name: "Climatizador Sixxis",
     description: "Pouco uso",
     value: "1000 R",
@@ -46,7 +46,7 @@ const objects = [
   },
   {
     id: "zapateiro",
-    filename: "zapateiro.png",
+    filename: "zapateiro.jpeg",
     object_name: "Zapateiro de madeira",
     value: "80 R",
     description: "",
@@ -55,7 +55,7 @@ const objects = [
   },
   {
     id: "nichos",
-    filename: "nichos.png",
+    filename: "nichos.jpeg",
     object_name: "3 x nichos brancos 80cm",
     description: "MDF",
     value: "100 R",
@@ -64,7 +64,7 @@ const objects = [
   },
   {
     id: "rack",
-    filename: "rack.png",
+    filename: "rack.jpeg",
     description: "O painel tem riscos que ficam ocultos com TV",
     object_name: "Rack TV / painel / Germai / rodinhas",
     value: "250 R",
@@ -73,7 +73,7 @@ const objects = [
   },
   {
     id: "mesa",
-    filename: "mesa.png",
+    filename: "mesa.jpeg",
     description: "O corino das cadeiras tem rasgões pequenos",
     object_name: "Mesa vidro/metálica 4 cadeiras",
     value: "280 R",
@@ -82,7 +82,7 @@ const objects = [
   },
   {
     id: "sofa3",
-    filename: "sofa3.png",
+    filename: "sofa3.jpeg",
     description: "tem rasgão de 6cm",
     object_name: "Sofá 3 lugares corino",
     value: "300 R",
@@ -91,7 +91,7 @@ const objects = [
   },
   {
     id: "sofa2",
-    filename: "sofa2.png",
+    filename: "sofa2.jpeg",
     object_name: "Sofá 2 lugares corino",
     description: "",
     value: "200 R",
@@ -99,8 +99,8 @@ const objects = [
     category: "sala",
   },
   {
-    id: "presidente",
-    filename: "presidente.png",
+    id: "cadeirapresidente",
+    filename: "cadeirapresidente.jpeg",
     object_name: "Cadeira Presidente Way Gamer Cavaletti",
     description: "",
     value: "2000 R",
@@ -109,7 +109,7 @@ const objects = [
   },
   {
     id: "casalinflavel",
-    filename: "casalinflavel.png",
+    filename: "casalinflavel.jpeg",
     description: "",
     object_name: "Bomba de pé + colchão inflável casal",
     value: "100 R",
@@ -118,7 +118,7 @@ const objects = [
   },
   {
     id: "hometheater",
-    filename: "hometheater.png",
+    filename: "hometheater.jpeg",
     object_name: "Home Theater Blu-ray Samsung + 2 pedestais",
     description: "Subwoofer grande + 5 caixas /Netflix com cabo rede / USB / Karaoke",
     value: "500 R",
@@ -127,7 +127,7 @@ const objects = [
   },
   {
     id: "geladeira",
-    filename: "geladeira.png",
+    filename: "geladeira.jpeg",
     object_name: "Geladeira Consul CRD36",
     description: "Não precisa desgelar",
     value: "800 R",
@@ -136,7 +136,7 @@ const objects = [
   },
   {
     id: "microondas",
-    filename: "microondas.png",
+    filename: "microondas.jpeg",
     object_name: "Microondas Panasonic NN-ST27L",
     description: "Pouco uso",
     value: "400 R",
@@ -145,7 +145,7 @@ const objects = [
   },
   {
     id: "fogao",
-    filename: "fogao.png",
+    filename: "fogao.jpeg",
     object_name: "Fogão Esmaltec Topázio",
     description: "o timer não funciona",
     value: "450 R",
@@ -154,7 +154,7 @@ const objects = [
   },
   {
     id: "escrivaninha",
-    filename: "escrivaninha.png",
+    filename: "escrivaninha.jpeg",
     object_name: "Escrivaninha metal/MDF/plástico/teclado/gavetas/chave",
     description: "",
     value: "170 R",
@@ -163,8 +163,8 @@ const objects = [
   },
   {
     id: "comoda",
-    filename: "comoda.png",
-    description: "defeito no canto direito, area 10 x 20cm",
+    filename: "comoda.jpeg",
+    description: "defeito (10 x 20cm) no canto direito",
     object_name: "Cômoda em Madeira",
     value: "300 R",
     status: "disponível",
@@ -172,7 +172,7 @@ const objects = [
   },
   {
     id: "exprimidor",
-    filename: "exprimidor.jpg",
+    filename: "exprimidor.jpeg",
     object_name: "Exprimidor Laranja",
     value: "25 R",
     description: "",
@@ -183,18 +183,18 @@ const objects = [
   },
   {
     id: "liquidificador",
-    filename: "liquidificador.jpg",
+    filename: "liquidificador.jpeg",
     object_name: "Liquidificador Walita RI2160",
     value: "60 R",
     description: "copo novo",
     link: "",
     external_link: "",
-    status: "reservado",
+    status: "vendido",
     category: "cozinha",
   },
   {
     id: "pressao",
-    filename: "pressao.jpg",
+    filename: "pressao.jpeg",
     object_name: "Panela Pressão Tramontina 3L",
     value: "100 R",
     description: "",
@@ -205,7 +205,7 @@ const objects = [
   },
   {
     id: "panelas",
-    filename: "panelas.jpg",
+    filename: "panelas.jpeg",
     object_name: "Panelas Brinox Ceramic Life",
     value: "400 R",
     description: "ou 80-100 R por peça/algumas peças sem uso",
@@ -216,7 +216,7 @@ const objects = [
   },
   {
     id: "tv",
-    filename: "tv.jpg",
+    filename: "tv.jpeg",
     object_name: 'TV Samsung 48" 3D',
     value: "1500 R",
     description: "Netflix, youtube",
@@ -227,7 +227,7 @@ const objects = [
   },
   {
     id: "tela",
-    filename: "tela.jpg",
+    filename: "tela.jpeg",
     object_name: "Tela Acer Gamer XV280K + cabo tb",
     value: "2000 R",
     description: "",
@@ -238,7 +238,7 @@ const objects = [
   },
   {
     id: "cadeiramesh",
-    filename: "cadeiramesh.jpg",
+    filename: "cadeiramesh.jpeg",
     object_name: "Cadeira Skate Mesh",
     value: "100 R",
     description: "",
@@ -249,7 +249,7 @@ const objects = [
   },
   {
     id: "cadeiraplastico",
-    filename: "cadeiraplastico.jpg",
+    filename: "cadeiraplastico.jpeg",
     object_name: "Cadeira plastico, pés alumino",
     value: "200 R",
     description: "",
@@ -260,29 +260,29 @@ const objects = [
   },
   {
     id: "gaveteiropequeno",
-    filename: "gaveteiropequeno.jpg",
+    filename: "gaveteiropequeno.jpeg",
     object_name: "Gaveteiro pequeno madeira",
     value: "90 R",
     description: "6 gavetas",
+    link: "",
+    external_link: "",
+    status: "vendido",
+    category: "quarto",
+  },
+  {
+    id: "gaveteiromediano",
+    filename: "gaveteiromediano.jpeg",
+    object_name: "Gaveteiro mediano madeira",
+    value: "100 R",
+    description: "4 gavetas",
     link: "",
     external_link: "",
     status: "reservado",
     category: "quarto",
   },
   {
-    id: "gaveteiromediano",
-    filename: "gaveteiromediano.jpg",
-    object_name: "Gaveteiro mediano madeira",
-    value: "100 R",
-    description: "4 gavetas",
-    link: "",
-    external_link: "",
-    status: "disponível",
-    category: "quarto",
-  },
-  {
     id: "barraca",
-    filename: "barraca.jpg",
+    filename: "barraca.jpeg",
     object_name: "Barraca Arpenaz (Decathlon) 2 pessoas",
     value: "200 R",
     description: "pouco uso",
@@ -293,7 +293,7 @@ const objects = [
   },
   {
     id: "modem4g",
-    filename: "modem4g.jpg",
+    filename: "modem4g.jpeg",
     object_name: "Modem para chip 4G",
     value: "270 R",
     description: "crie rede wifi com um chip",
@@ -304,7 +304,7 @@ const objects = [
   },
   {
     id: "impressora",
-    filename: "impressora.jpg",
+    filename: "impressora.jpeg",
     object_name: "Impr Epson TX115 Sist. continuo de tinta",
     value: " R",
     description: "+ transf 220 -> 110V (mod. isol.)",
@@ -315,7 +315,7 @@ const objects = [
   },
   {
     id: "cesto",
-    filename: "cesto.jpg",
+    filename: "cesto.jpeg",
     object_name: "Cesto roupa 70L",
     value: "40 R",
     description: "",
@@ -326,7 +326,7 @@ const objects = [
   },
   {
     id: "maqlavar",
-    filename: "maqlavar.jpg",
+    filename: "maqlavar.jpeg",
     object_name: "Maquina Lavar Brastemp 8kg",
     value: "700 R",
     description: "2 niveis de agua",
@@ -337,7 +337,7 @@ const objects = [
   },
   {
     id: "esteira",
-    filename: "esteria.jpg",
+    filename: "esteria.jpeg",
     object_name: "Esteria Decathlon espuma",
     value: "20 R",
     description: "",
@@ -348,7 +348,7 @@ const objects = [
   },
   {
     id: "suportebox",
-    filename: "suportebox.jpg",
+    filename: "suportebox.jpeg",
     object_name: "Suporte inferior de cama box casal",
     value: "300 R",
     description: "",
@@ -359,13 +359,13 @@ const objects = [
   },
   {
     id: "colchaocasal",
-    filename: "colchaocasal.jpg",
+    filename: "colchaocasal.jpeg",
     object_name: "Colchão Casal",
     value: "500 R",
     description: "pequenos rasgões na superficie",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "reservado",
     category: "quarto",
   },
 ];
@@ -399,7 +399,7 @@ if (others_cards) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="foodassets/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
@@ -437,7 +437,7 @@ if (room_cards) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="foodassets/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
@@ -475,7 +475,7 @@ if (study_cards) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="foodassets/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
@@ -513,7 +513,7 @@ if (living) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="foodassets/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
@@ -551,7 +551,7 @@ if (cozinha_cards) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="foodassets/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
@@ -590,7 +590,7 @@ if (allcards) {
       return `
       <div class="card" id="${item.id}">
         <div class="card__image-container">
-          <img src="foodassets/${item.filename}" alt="${item.object_name}">
+          <img src="pictures/${item.filename}" alt="${item.object_name}">
         </div>
         <div class="card__content">
           <p>${item.object_name}</p>
