@@ -1,135 +1,378 @@
 const objects = [
   {
-    id: "tbb",
-    filename: "burger.png",
-    object_name: "C Triplo bacon burger",
-    value: "150 R",
-    link: "https://www.google.com",
-    category: "cozinha",
+    id: "ferro",
+    filename: "ferro.png",
+    object_name: "Ferro Black&Decker 560",
+    description: "Vapor",
+    value: "40 R",
+    status: "disponível",
+    category: "outros",
   },
   {
-    id: "p4e",
-    filename: "pizza.png",
-    object_name: "Pizza 4 estações",
-    value: "Fabiana Melo",
-    category: "cozinha",
+    id: "chaves",
+    filename: "chaves.png",
+    object_name: "Pindurador de chaves",
+    description: "Madeira, rustico",
+    value: "30 R",
+    status: "disponível",
+    category: "outros",
   },
   {
-    id: "eaa",
-    filename: "espaguete.png",
-    object_name: "Espaguete ao alho",
-    value: "Júlia Kinoto",
-    category: "cozinha",
+    id: "furadeira",
+    filename: "furadeira.png",
+    description: "+ brocas",
+    object_name: "Furadeira Tramontina 500W 220V",
+    value: "100 R",
+    status: "disponível",
+    category: "outros",
   },
   {
-    id: "lmc",
-    filename: "lasanha.png",
-    object_name: "Lasanha mac n’ cheese",
-    value: "Juliano Vieira",
-    category: "cozinha",
+    id: "colchaosolteiro",
+    filename: "colchaosolteiro.png",
+    description: "Quechua/Decathlon",
+    object_name: "Colchão inflável solteiro",
+    value: "70 R",
+    status: "disponível",
+    category: "outros",
   },
   {
-    id: "dpc",
-    filename: "doce.png",
-    object_name: "Docinhos pão-do-céu",
-    value: "Ricardo Golvea",
-    category: "cozinha",
+    id: "climatizador",
+    filename: "climatizador.png",
+    object_name: "Climatizador Sixxis",
+    description: "Pouco uso",
+    value: "1000 R",
+    status: "disponível",
+    category: "outros",
   },
   {
-    id: "afb",
-    filename: "asinhas.png",
-    object_name: "Asinhas de frango ao barbecue",
-    value: "Vania Steroski",
-    category: "cozinha",
-  },
-  {
-    id: "tbb",
-    filename: "burger.png",
-    object_name: "s Triplo bacon burger",
-    value: "Jorge Relato",
+    id: "zapateiro",
+    filename: "zapateiro.png",
+    object_name: "Zapateiro de madeira",
+    value: "80 R",
+    description: "",
+    status: "disponível",
     category: "sala",
   },
   {
-    id: "p4e",
-    filename: "pizza.png",
-    object_name: "Pizza 4 estações",
-    value: "Fabiana Melo",
-    link: "https://www.yahoo.com",
+    id: "nichos",
+    filename: "nichos.png",
+    object_name: "3 x nichos brancos 80cm",
+    description: "MDF",
+    value: "100 R",
+    status: "disponível",
     category: "sala",
   },
   {
-    id: "eaa",
-    filename: "espaguete.png",
-    object_name: "Espaguete ao alho",
-    value: "Júlia Kinoto",
+    id: "rack",
+    filename: "rack.png",
+    description: "O painel tem riscos que ficam ocultos com TV",
+    object_name: "Rack TV / painel / Germai / rodinhas",
+    value: "250 R",
+    status: "disponível",
     category: "sala",
   },
   {
-    id: "lmc",
-    filename: "lasanha.png",
-    object_name: "Lasanha mac n’ cheese",
-    value: "Juliano Vieira",
+    id: "mesa",
+    filename: "mesa.png",
+    description: "O corino das cadeiras tem rasgões pequenos",
+    object_name: "Mesa vidro/metálica 4 cadeiras",
+    value: "280 R",
+    status: "disponível",
     category: "sala",
   },
   {
-    id: "dpc",
-    filename: "doce.png",
-    object_name: "Docinhos pão-do-céu",
-    value: "Ricardo Golvea",
+    id: "sofa3",
+    filename: "sofa3.png",
+    description: "tem rasgão de 6cm",
+    object_name: "Sofá 3 lugares corino",
+    value: "300 R",
+    status: "disponível",
     category: "sala",
   },
   {
-    id: "afb",
-    filename: "asinhas.png",
-    object_name: "Asinhas de frango ao barbecue",
-    value: "Vania Steroski",
+    id: "sofa2",
+    filename: "sofa2.png",
+    object_name: "Sofá 2 lugares corino",
+    description: "",
+    value: "200 R",
+    status: "disponível",
     category: "sala",
   },
   {
-    id: "tbb",
-    filename: "burger.png",
-    object_name: "E Triplo bacon burger",
-    value: "Jorge Relato",
+    id: "presidente",
+    filename: "presidente.png",
+    object_name: "Cadeira Presidente Way Gamer Cavaletti",
+    description: "",
+    value: "2000 R",
+    status: "disponível",
     category: "study",
   },
   {
-    id: "p4e",
-    filename: "pizza.png",
-    object_name: "Pizza 4 estações",
-    value: "Fabiana Melo",
+    id: "casalinflavel",
+    filename: "casalinflavel.png",
+    description: "",
+    object_name: "Bomba de pé + colchão inflável casal",
+    value: "100 R",
+    status: "reservado",
+    category: "outros",
+  },
+  {
+    id: "hometheater",
+    filename: "hometheater.png",
+    object_name: "Home Theater Blu-ray Samsung + 2 pedestais",
+    description: "Subwoofer grande + 5 caixas /Netflix com cabo rede / USB / Karaoke",
+    value: "500 R",
+    status: "disponível",
+    category: "sala",
+  },
+  {
+    id: "geladeira",
+    filename: "geladeira.png",
+    object_name: "Geladeira Consul CRD36",
+    description: "Não precisa desgelar",
+    value: "800 R",
+    status: "disponível",
+    category: "cozinha",
+  },
+  {
+    id: "microondas",
+    filename: "microondas.png",
+    object_name: "Microondas Panasonic NN-ST27L",
+    description: "Pouco uso",
+    value: "400 R",
+    status: "disponível",
+    category: "cozinha",
+  },
+  {
+    id: "fogao",
+    filename: "fogao.png",
+    object_name: "Fogão Esmaltec Topázio",
+    description: "o timer não funciona",
+    value: "450 R",
+    status: "disponível",
+    category: "cozinha",
+  },
+  {
+    id: "escrivaninha",
+    filename: "escrivaninha.png",
+    object_name: "Escrivaninha metal/MDF/plástico/teclado/gavetas/chave",
+    description: "",
+    value: "170 R",
+    status: "disponível",
     category: "study",
   },
   {
-    id: "eaa",
-    filename: "espaguete.png",
-    object_name: "Espaguete ao alho",
-    value: "Júlia Kinoto",
+    id: "comoda",
+    filename: "comoda.png",
+    description: "defeito no canto direito, area 10 x 20cm",
+    object_name: "Cômoda em Madeira",
+    value: "300 R",
+    status: "disponível",
+    category: "quarto",
+  },
+  {
+    id: "exprimidor",
+    filename: "exprimidor.jpg",
+    object_name: "Exprimidor Laranja",
+    value: "25 R",
+    description: "",
+    link: "",
+    external_link: "",
+    status: "disponível",
+    category: "cozinha",
+  },
+  {
+    id: "liquidificador",
+    filename: "liquidificador.jpg",
+    object_name: "Liquidificador Walita RI2160",
+    value: "60 R",
+    description: "copo novo",
+    link: "",
+    external_link: "",
+    status: "reservado",
+    category: "cozinha",
+  },
+  {
+    id: "pressao",
+    filename: "pressao.jpg",
+    object_name: "Panela Pressão Tramontina 3L",
+    value: "100 R",
+    description: "",
+    link: "",
+    external_link: "",
+    status: "disponível",
+    category: "cozinha",
+  },
+  {
+    id: "panelas",
+    filename: "panelas.jpg",
+    object_name: "Panelas Brinox Ceramic Life",
+    value: "400 R",
+    description: "ou 80-100 R por peça/algumas peças sem uso",
+    link: "",
+    external_link: "",
+    status: "disponível",
+    category: "cozinha",
+  },
+  {
+    id: "tv",
+    filename: "tv.jpg",
+    object_name: 'TV Samsung 48" 3D',
+    value: "1500 R",
+    description: "Netflix, youtube",
+    link: "",
+    external_link: "",
+    status: "disponível",
+    category: "sala",
+  },
+  {
+    id: "tela",
+    filename: "tela.jpg",
+    object_name: "Tela Acer Gamer XV280K + cabo tb",
+    value: "2000 R",
+    description: "",
+    link: "",
+    external_link: "https://acortar.link/POPZ9z",
+    status: "disponível",
     category: "study",
   },
   {
-    id: "lmc",
-    filename: "lasanha.png",
-    object_name: "Lasanha mac n’ cheese",
-    value: "Juliano Vieira",
+    id: "cadeiramesh",
+    filename: "cadeiramesh.jpg",
+    object_name: "Cadeira Skate Mesh",
+    value: "100 R",
+    description: "",
+    link: "",
+    external_link: "",
+    status: "disponível",
     category: "study",
   },
   {
-    id: "dpc",
-    filename: "doce.png",
-    object_name: "Docinhos pão-do-céu",
-    value: "Ricardo Golvea",
+    id: "cadeiraplastico",
+    filename: "cadeiraplastico.jpg",
+    object_name: "Cadeira plastico, pés alumino",
+    value: "200 R",
+    description: "",
+    link: "",
+    external_link: "",
+    status: "disponível",
     category: "study",
   },
   {
-    id: "afb",
-    filename: "asinhas.png",
-    object_name: "Asinhas de frango ao barbecue",
-    value: "Vania Steroski",
+    id: "gaveteiropequeno",
+    filename: "gaveteiropequeno.jpg",
+    object_name: "Gaveteiro pequeno madeira",
+    value: "90 R",
+    description: "6 gavetas",
+    link: "",
+    external_link: "",
+    status: "reservado",
+    category: "quarto",
+  },
+  {
+    id: "gaveteiromediano",
+    filename: "gaveteiromediano.jpg",
+    object_name: "Gaveteiro mediano madeira",
+    value: "100 R",
+    description: "4 gavetas",
+    link: "",
+    external_link: "",
+    status: "disponível",
+    category: "quarto",
+  },
+  {
+    id: "barraca",
+    filename: "barraca.jpg",
+    object_name: "Barraca Arpenaz (Decathlon) 2 pessoas",
+    value: "200 R",
+    description: "pouco uso",
+    link: "",
+    external_link: "",
+    status: "disponível",
+    category: "outros",
+  },
+  {
+    id: "modem4g",
+    filename: "modem4g.jpg",
+    object_name: "Modem para chip 4G",
+    value: "270 R",
+    description: "crie rede wifi com um chip",
+    link: "",
+    external_link: "",
+    status: "disponível",
+    category: "outros",
+  },
+  {
+    id: "impressora",
+    filename: "impressora.jpg",
+    object_name: "Impr Epson TX115 Sist. continuo de tinta",
+    value: " R",
+    description: "+ transf 220 -> 110V (mod. isol.)",
+    link: "",
+    external_link: "",
+    status: "disponível",
     category: "study",
+  },
+  {
+    id: "cesto",
+    filename: "cesto.jpg",
+    object_name: "Cesto roupa 70L",
+    value: "40 R",
+    description: "",
+    link: "",
+    external_link: "",
+    status: "disponível",
+    category: "quarto",
+  },
+  {
+    id: "maqlavar",
+    filename: "maqlavar.jpg",
+    object_name: "Maquina Lavar Brastemp 8kg",
+    value: "700 R",
+    description: "2 niveis de agua",
+    link: "",
+    external_link: "",
+    status: "disponível",
+    category: "outros",
+  },
+  {
+    id: "esteira",
+    filename: "esteria.jpg",
+    object_name: "Esteria Decathlon espuma",
+    value: "20 R",
+    description: "",
+    link: "",
+    external_link: "",
+    status: "reservado",
+    category: "outros",
+  },
+  {
+    id: "suportebox",
+    filename: "suportebox.jpg",
+    object_name: "Suporte inferior de cama box casal",
+    value: "300 R",
+    description: "",
+    link: "",
+    external_link: "",
+    status: "reservado",
+    category: "quarto",
+  },
+  {
+    id: "colchaocasal",
+    filename: "colchaocasal.jpg",
+    object_name: "Colchão Casal",
+    value: "500 R",
+    description: "pequenos rasgões na superficie",
+    link: "",
+    external_link: "",
+    status: "disponível",
+    category: "quarto",
   },
 ];
 
 const living = document.querySelector(".living_cards");
+const room_cards = document.querySelector(".room_cards");
+const others_cards = document.querySelector(".others_cards");
 const cozinha_cards = document.querySelector(".cozinha_cards");
 const study_cards = document.querySelector(".study_cards");
 
@@ -137,15 +380,21 @@ const allcards = document.querySelector(".allcards");
 
 /* categorys only */
 
-if (study_cards) {
-  study_cards.innerHTML = objects
+if (others_cards) {
+  others_cards.innerHTML = objects
     .map((item) => {
-      if (item.category == "study") {
+      if (item.category == "outros") {
         let link = item.link;
-        if (link != undefined) {
-          link = `<a href=${link}>ML link</a>`;
+        if ((link != undefined) & (link != "")) {
+          link = `<br><a href=${link} target="new">ML link</a>`;
         } else {
           link = "";
+        }
+        let external_link = item.external_link;
+        if ((external_link != undefined) & (external_link != "")) {
+          external_link = `<br><a href=${external_link} target="new">link externo</a>`;
+        } else {
+          external_link = "";
         }
         return `
     <div class="card" id="${item.id}">
@@ -154,11 +403,90 @@ if (study_cards) {
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
+        ${item.description}      
       </div>
       <div class="card__info">
         <p>${item.value}</p>
       </div>
+      ${item.status}
       ${link}
+      ${external_link}
+    </div>
+  `;
+      }
+    })
+    .join("");
+}
+
+if (room_cards) {
+  room_cards.innerHTML = objects
+    .map((item) => {
+      if (item.category == "quarto") {
+        let link = item.link;
+        if ((link != undefined) & (link != "")) {
+          link = `<br><a href=${link} target="new">ML link</a>`;
+        } else {
+          link = "";
+        }
+        let external_link = item.external_link;
+        if ((external_link != undefined) & (external_link != "")) {
+          external_link = `<br><a href=${external_link} target="new">link externo</a>`;
+        } else {
+          external_link = "";
+        }
+        return `
+    <div class="card" id="${item.id}">
+      <div class="card__image-container">
+        <img src="foodassets/${item.filename}" alt="${item.object_name}">
+      </div>
+      <div class="card__content">
+        <p>${item.object_name}</p>
+        ${item.description}      
+      </div>
+      <div class="card__info">
+        <p>${item.value}</p>
+      </div>
+      ${item.status}
+      ${link}
+      ${external_link}
+      </div>
+  `;
+      }
+    })
+    .join("");
+}
+
+if (study_cards) {
+  study_cards.innerHTML = objects
+    .map((item) => {
+      if (item.category == "study") {
+        let link = item.link;
+        if ((link != undefined) & (link != "")) {
+          link = `<br><a href=${link} target="new">ML link</a>`;
+        } else {
+          link = "";
+        }
+        let external_link = item.external_link;
+        if ((external_link != undefined) & (external_link != "")) {
+          external_link = `<br><a href=${external_link} target="new">link externo</a>`;
+        } else {
+          external_link = "";
+        }
+        return `
+    <div class="card" id="${item.id}">
+      <div class="card__image-container">
+        <img src="foodassets/${item.filename}" alt="${item.object_name}">
+      </div>
+      <div class="card__content">
+        <p>${item.object_name}</p>
+        ${item.description}      
+      </div>
+      <div class="card__info">
+        <p>${item.value}</p>
+      </div>
+      ${item.status}
+      ${link}
+      ${external_link}
     </div>
   `;
       }
@@ -171,10 +499,16 @@ if (living) {
     .map((item) => {
       if (item.category == "sala") {
         let link = item.link;
-        if (link != undefined) {
-          link = `<a href=${link}>ML link</a>`;
+        if ((link != undefined) & (link != "")) {
+          link = `<br><a href=${link} target="new">ML link</a>`;
         } else {
           link = "";
+        }
+        let external_link = item.external_link;
+        if ((external_link != undefined) & (external_link != "")) {
+          external_link = `<br><a href=${external_link} target="new">link externo</a>`;
+        } else {
+          external_link = "";
         }
         return `
     <div class="card" id="${item.id}">
@@ -183,11 +517,14 @@ if (living) {
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
+        ${item.description}      
       </div>
       <div class="card__info">
         <p>${item.value}</p>
       </div>
+      ${item.status}
       ${link}
+      ${external_link}
     </div>
   `;
       }
@@ -200,10 +537,16 @@ if (cozinha_cards) {
     .map((item) => {
       if (item.category == "cozinha") {
         let link = item.link;
-        if (link != undefined) {
-          link = `<a href=${link}>ML link</a>`;
+        if ((link != undefined) & (link != "")) {
+          link = `<br><a href=${link} target="new">ML link</a>`;
         } else {
           link = "";
+        }
+        let external_link = item.external_link;
+        if ((external_link != undefined) & (external_link != "")) {
+          external_link = `<br><a href=${external_link} target="new">link externo</a>`;
+        } else {
+          external_link = "";
         }
         return `
     <div class="card" id="${item.id}">
@@ -212,11 +555,14 @@ if (cozinha_cards) {
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
+        ${item.description}      
       </div>
       <div class="card__info">
         <p>${item.value}</p>
       </div>
-        ${link}
+      ${item.status}
+      ${link}
+      ${external_link}
     </div>
   `;
       }
@@ -230,10 +576,16 @@ if (allcards) {
   allcards.innerHTML = objects
     .map((item) => {
       let link = item.link;
-      if (link != undefined) {
-        link = `<a href=${link}>ML link</a>`;
+      if ((link != undefined) & (link != "")) {
+        link = `<br><a href=${link} target="new">ML link</a>`;
       } else {
         link = "";
+      }
+      let external_link = item.external_link;
+      if ((external_link != undefined) & (external_link != "")) {
+        external_link = `<br><a href=${external_link} target="new">link externo</a>`;
+      } else {
+        external_link = "";
       }
       return `
       <div class="card" id="${item.id}">
@@ -242,11 +594,14 @@ if (allcards) {
         </div>
         <div class="card__content">
           <p>${item.object_name}</p>
+          ${item.description}      
         </div>
         <div class="card__info">
           <p>${item.value}</p>
         </div>
+        ${item.status}
         ${link}
+        ${external_link}
       </div>
     `;
     })

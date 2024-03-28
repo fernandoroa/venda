@@ -142,7 +142,7 @@ footer p {
 
 .links {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr 6fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
   align-items: center;
   justify-items: center;
