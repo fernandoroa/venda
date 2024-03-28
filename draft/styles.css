@@ -73,6 +73,15 @@ select {
   .allcards {
     grid-template-columns: 1fr 1fr;
   }
+  .inner-body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .admin_content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .inner-body {
