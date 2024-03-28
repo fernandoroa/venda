@@ -342,7 +342,7 @@ const objects = [
     id: "impressora",
     filename: "impressora.jpeg",
     object_name: "Impr Epson TX115 Sist. continuo de tinta",
-    value: " R",
+    value: "120 R",
     description: "+ transf 220 -> 110V (mod. isol.)",
     link: "",
     external_link: "",
