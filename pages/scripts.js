@@ -1,5 +1,14 @@
 const objects = [
   {
+    id: "perneiras",
+    filename: "perneiras.jpeg",
+    object_name: "2x perneiras",
+    description: "",
+    value: "12 R (cada par)",
+    status: "disponível",
+    category: "outros",
+  },
+  {
     id: "botijao",
     filename: "botijao.jpeg",
     object_name: "Botijão de Gas 13kg",
@@ -22,7 +31,7 @@ const objects = [
     filename: "cobertores.jpeg",
     object_name: "2x cobertor",
     description: "laranja, lilas",
-    value: "40 R",
+    value: "40 R (2)",
     status: "disponível",
     category: "quarto",
   },
