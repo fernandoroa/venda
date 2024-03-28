@@ -1,5 +1,14 @@
 const objects = [
   {
+    id: "botijao",
+    filename: "botijao.jpeg",
+    object_name: "Botijão de Gas 13kg",
+    description: "2 a 3kg de gas (20%)",
+    value: "200 R",
+    status: "disponível",
+    category: "cozinha",
+  },
+  {
     id: "ticotico",
     filename: "ticotico.jpeg",
     object_name: "Serra tico tico",
