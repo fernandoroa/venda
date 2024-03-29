@@ -491,7 +491,7 @@ const objects = [
     object_name: "Combo: suporte box + colchão Casal",
     value: "750 R",
     description: "pequenos rasgões na superficie do colchão",
-    link: "",
+    link: "https://acortar.link/ke1sZl",
     external_link: "",
     status: "reservado",
     category: "quarto",
@@ -523,7 +523,7 @@ if (others_cards) {
       if (item.category == "outros") {
         let link = item.link;
         if ((link != undefined) & (link != "")) {
-          link = `<br><a href=${link} target="new">ML link</a>`;
+          link = `<a href=${link} target="new">ML link</a>`;
         } else {
           link = "";
         }
@@ -563,7 +563,7 @@ if (room_cards) {
       if (item.category == "quarto") {
         let link = item.link;
         if ((link != undefined) & (link != "")) {
-          link = `<br><a href=${link} target="new">ML link</a>`;
+          link = `<a href=${link} target="new">ML link</a>`;
         } else {
           link = "";
         }
@@ -603,7 +603,7 @@ if (study_cards) {
       if (item.category == "study") {
         let link = item.link;
         if ((link != undefined) & (link != "")) {
-          link = `<br><a href=${link} target="new">ML link</a>`;
+          link = `<a href=${link} target="new">ML link</a>`;
         } else {
           link = "";
         }
@@ -643,7 +643,7 @@ if (living) {
       if (item.category == "sala") {
         let link = item.link;
         if ((link != undefined) & (link != "")) {
-          link = `<br><a href=${link} target="new">ML link</a>`;
+          link = `<a href=${link} target="new">ML link</a>`;
         } else {
           link = "";
         }
@@ -683,7 +683,7 @@ if (cozinha_cards) {
       if (item.category == "cozinha") {
         let link = item.link;
         if ((link != undefined) & (link != "")) {
-          link = `<br><a href=${link} target="new">ML link</a>`;
+          link = `<a href=${link} target="new">ML link</a>`;
         } else {
           link = "";
         }
@@ -724,7 +724,7 @@ if (allcards) {
     .map((item) => {
       let link = item.link;
       if ((link != undefined) & (link != "")) {
-        link = `<br><a href=${link} target="new">ML link</a>`;
+        link = `<a href=${link} target="new">ML link</a>`;
       } else {
         link = "";
       }
