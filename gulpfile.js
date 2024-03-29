@@ -13,6 +13,7 @@ gulp.task("html", function () {
     .pipe(gulp.dest("./pages"));
 });
 
+// pictures manually copied (gitignored on root folder)
 gulp.task("public", function () {
   return gulp.src(["./public*/**/*"]).pipe(gulp.dest("pages/"));
 });
@@ -27,5 +28,4 @@ gulp.task("watch", function () {
   gulp.watch("./views/*.njk", gulp.series("html"));
 });
 
-// pictures manually copied
 gulp.task("default", gulp.series("html", "public", "watch"));
