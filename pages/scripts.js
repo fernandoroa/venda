@@ -93,9 +93,9 @@ const objects = [
     id: "cobertores",
     filename: "cobertores.jpeg",
     object_name: "3x cobertor",
-    description: "laranja, azul, lilas",
+    description: "laranja, azul, l̶i̶l̶a̶s̶",
     value: "20 R (cada um)",
-    status: "disponível",
+    status: "1 reservado, 2 livre",
     category: "quarto",
   },
   {
