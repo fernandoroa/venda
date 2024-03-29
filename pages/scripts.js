@@ -462,6 +462,15 @@ const objects = [
   },
 ];
 
+objects.sort((a, b) => {
+  let value_a = a.value;
+
+  let value_b = b.value;
+  const regex = /^\d+/;
+
+  return RegExp(regex).exec(value_a) - RegExp(regex).exec(value_b);
+});
+
 const living = document.querySelector(".living_cards");
 const room_cards = document.querySelector(".room_cards");
 const others_cards = document.querySelector(".others_cards");
