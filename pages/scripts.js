@@ -92,9 +92,9 @@ const objects = [
   {
     id: "cobertores",
     filename: "cobertores.jpeg",
-    object_name: "2x cobertor",
-    description: "laranja, lilas",
-    value: "40 R (2)",
+    object_name: "3x cobertor",
+    description: "laranja, azul, lilas",
+    value: "20 R (cada um)",
     status: "disponível",
     category: "quarto",
   },
