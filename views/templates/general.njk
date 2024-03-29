@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <div class="inner-body">
+{%include './head.njk'%}
+    <body>
+{%include './header.njk'%}
+
+      <div class="banner">
+        <div id="banner_text">
+{%block title%}
+{%endblock%}
+
+{% include './banner_text.njk' %}
+        </div>
+      </div>
+
+{%block wrapper%}
+{%endblock%}
+
+{%block content%}
+{%endblock%}
+
+{%include './footer.njk'%}
+      <script src="public/scripts.js"></script>
+    </body>
+  </div>
+</html>
