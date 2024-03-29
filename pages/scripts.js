@@ -545,7 +545,9 @@ if (others_cards) {
       <div class="card__info">
         <p>${item.value}</p>
       </div>
-      ${item.status}
+      <div class="card__status">
+        <p>${item.status}</p>
+      </div>
       ${link}
       ${external_link}
     </div>
@@ -583,10 +585,12 @@ if (room_cards) {
       <div class="card__info">
         <p>${item.value}</p>
       </div>
-      ${item.status}
+      <div class="card__status">
+        <p>${item.status}</p>
+      </div>
       ${link}
       ${external_link}
-      </div>
+    </div>
   `;
       }
     })
@@ -621,7 +625,9 @@ if (study_cards) {
       <div class="card__info">
         <p>${item.value}</p>
       </div>
-      ${item.status}
+      <div class="card__status">
+        <p>${item.status}</p>
+      </div>
       ${link}
       ${external_link}
     </div>
@@ -659,7 +665,9 @@ if (living) {
       <div class="card__info">
         <p>${item.value}</p>
       </div>
-      ${item.status}
+      <div class="card__status">
+        <p>${item.status}</p>
+      </div>
       ${link}
       ${external_link}
     </div>
@@ -697,7 +705,9 @@ if (cozinha_cards) {
       <div class="card__info">
         <p>${item.value}</p>
       </div>
-      ${item.status}
+      <div class="card__status">
+        <p>${item.status}</p>
+      </div>
       ${link}
       ${external_link}
     </div>
@@ -736,7 +746,9 @@ if (allcards) {
         <div class="card__info">
           <p>${item.value}</p>
         </div>
-        ${item.status}
+        <div class="card__status">
+          <p>${item.status}</p>
+        </div>
         ${link}
         ${external_link}
       </div>
@@ -748,14 +760,15 @@ if (allcards) {
 const cards = document.querySelectorAll(".card");
 
 for (let card of cards) {
-  card.addEventListener("click", function () {
-    const filename = card.querySelector("img").getAttribute("src");
-    const object_name = card.querySelector(".card__content").querySelector("p").innerHTML;
-    const value = card.querySelector(".card__info").querySelector("p").innerHTML;
-
-    modalOverlay.classList.add("active");
-    modalOverlay.querySelector("img").src = filename;
-    modalOverlay.querySelector("h1").innerText = object_name;
-    modalOverlay.querySelector("span").innerText = `por ${value}`;
-  });
+  const value = card.querySelector(".card__status").querySelector("p").innerHTML;
+  if (value == "vendido") {
+    let image_container = card.querySelector(".card__image-container");
+    image_container.appendChild(document.createElement("div"));
+    image_container.querySelector("div").classList.add("outer");
+  }
+  if (value.includes("reservado")) {
+    let image_container = card.querySelector(".card__image-container");
+    image_container.appendChild(document.createElement("div"));
+    image_container.querySelector("div").classList.add("loader");
+  }
 }
