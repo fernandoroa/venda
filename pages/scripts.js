@@ -1,5 +1,14 @@
 const objects = [
   {
+    id: "astro",
+    filename: "astro.jpeg",
+    object_name: "Astro, luz de várias cores",
+    description: "controle remoto",
+    value: "60 R",
+    status: "disponível",
+    category: "outros",
+  },
+  {
     id: "jardim",
     filename: "jardim.jpeg",
     object_name: "3 ferramentas de jardim",
@@ -236,7 +245,7 @@ const objects = [
   {
     id: "comoda",
     filename: "comoda.jpeg",
-    description: "defeito (10 x 20cm) no canto direito",
+    description: "45cm x 93(a) x 98 / defeito (10 x 20cm) no canto direito",
     object_name: "Cômoda em Madeira",
     value: "300 R",
     status: "disponível",
