@@ -32,7 +32,7 @@ const objects = [
     object_name: "Estante",
     description: "sem custo",
     value: "0 R",
-    status: "disponível",
+    status: "reservado",
     category: "study",
   },
   {
@@ -68,7 +68,7 @@ const objects = [
     object_name: "2x perneiras",
     description: "",
     value: "12 R (cada par)",
-    status: "1 par reservado, 1 livre",
+    status: "reservado",
     category: "outros",
   },
   {
@@ -317,7 +317,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "reservado",
     category: "cozinha",
   },
   {
