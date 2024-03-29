@@ -1,5 +1,23 @@
 const objects = [
   {
+    id: "fogareiro",
+    filename: "fogareiro.jpeg",
+    object_name: "Fogareiro e gas",
+    description: "pouco uso",
+    value: "90 R",
+    status: "disponível",
+    category: "outros",
+  },
+  {
+    id: "estante",
+    filename: "estante.jpeg",
+    object_name: "Estante",
+    description: "sem custo",
+    value: "0 R",
+    status: "disponível",
+    category: "study",
+  },
+  {
     id: "astro",
     filename: "astro.jpeg",
     object_name: "Astro, luz de várias cores",
