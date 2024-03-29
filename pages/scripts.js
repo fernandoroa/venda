@@ -1,11 +1,29 @@
 const objects = [
   {
+    id: "jardim",
+    filename: "jardim.jpeg",
+    object_name: "3 ferramentas de jardim",
+    description: "",
+    value: "12 R (cada uma)",
+    status: "disponível",
+    category: "outros",
+  },
+  {
+    id: "snorkel",
+    filename: "snorkel.jpeg",
+    object_name: "Snorkel de 1 peça, de superficie",
+    description: "Decathlon",
+    value: "120 R",
+    status: "disponível",
+    category: "outros",
+  },
+  {
     id: "perneiras",
     filename: "perneiras.jpeg",
     object_name: "2x perneiras",
     description: "",
     value: "12 R (cada par)",
-    status: "disponível",
+    status: "1 par reservado, 1 livre",
     category: "outros",
   },
   {
