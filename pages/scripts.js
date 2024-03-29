@@ -1,5 +1,14 @@
 const objects = [
   {
+    id: "tampas",
+    filename: "tampas.jpeg",
+    object_name: "6x Tampas de vidro temperado avulsas",
+    description: "A maioria Tramontina",
+    value: "15 R cada",
+    status: "disponível",
+    category: "cozinha",
+  },
+  {
     id: "apoio",
     filename: "apoio.jpeg",
     object_name: "Apoio para pés",
@@ -325,7 +334,7 @@ const objects = [
     filename: "panelas.jpeg",
     object_name: "Panelas Brinox Ceramic Life",
     value: "400 R",
-    description: "ou 80-100 R por peça/algumas peças sem uso",
+    description: "ou 70-90 R por peça/algumas peças sem uso",
     link: "",
     external_link: "",
     status: "disponível",
