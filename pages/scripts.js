@@ -1,5 +1,23 @@
 const objects = [
   {
+    id: "apoio",
+    filename: "apoio.jpeg",
+    object_name: "Apoio para pés",
+    description: "pouco uso",
+    value: "80 R",
+    status: "disponível",
+    category: "study",
+  },
+  {
+    id: "bombona",
+    filename: "bombona.jpeg",
+    object_name: "bombona 80L com torneira",
+    description: "",
+    value: "80 R",
+    status: "disponível",
+    category: "outros",
+  },
+  {
     id: "fogareiro",
     filename: "fogareiro.jpeg",
     object_name: "Fogareiro e gas",
@@ -393,7 +411,7 @@ const objects = [
   {
     id: "modem4g",
     filename: "modem4g.jpeg",
-    object_name: "Modem para chip 4G",
+    object_name: "Modem/roteador H3S para chip 4G",
     value: "270 R",
     description: "crie rede wifi com um chip",
     link: "",
