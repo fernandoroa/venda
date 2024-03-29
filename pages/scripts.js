@@ -59,7 +59,7 @@ const objects = [
     object_name: "3 ferramentas de jardim",
     description: "",
     value: "12 R (cada uma)",
-    status: "disponível",
+    status: "tesoura reservada, 2 disponíveis",
     category: "outros",
   },
   {
@@ -102,9 +102,9 @@ const objects = [
     id: "cobertores",
     filename: "cobertores.jpeg",
     object_name: "3x cobertor",
-    description: "laranja, azul, l̶i̶l̶a̶s̶",
+    description: "l̶a̶r̶a̶n̶j̶a̶, azul, l̶i̶l̶a̶s̶",
     value: "20 R (cada um)",
-    status: "1 reservado, 2 livre",
+    status: "2 reservado, 1 livre",
     category: "quarto",
   },
   {
@@ -787,7 +787,7 @@ for (let card of cards) {
     image_container.appendChild(document.createElement("div"));
     image_container.querySelector("div").classList.add("outer");
   }
-  if (value.includes("reservado")) {
+  if (value.includes("reservad")) {
     let image_container = card.querySelector(".card__image-container");
     image_container.appendChild(document.createElement("div"));
     image_container.querySelector("div").classList.add("loader");
