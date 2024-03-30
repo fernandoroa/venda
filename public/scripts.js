@@ -1,5 +1,23 @@
 const objects = [
   {
+    id: "bike",
+    filename: "bike.jpeg",
+    object_name: "Bike Caiçara Beach",
+    description: "3 x 6 marchas",
+    value: "330 R",
+    status: "disponível",
+    category: "outros",
+  },
+  {
+    id: "patins",
+    filename: "patins.jpeg",
+    object_name: "Patins",
+    description: "",
+    value: "100 R",
+    status: "disponível",
+    category: "outros",
+  },
+  {
     id: "tampas",
     filename: "tampas.jpeg",
     object_name: "6x Tampas de vidro temperado avulsas",
@@ -246,7 +264,8 @@ const objects = [
     id: "hometheater",
     filename: "hometheater.jpeg",
     object_name: "Home Theater Blu-ray Samsung + 2 pedestais",
-    description: "Subwoofer grande + 5 caixas /Netflix com cabo rede / USB / Karaoke",
+    description:
+      "Subwoofer grande + 5 caixas /Netflix com cabo rede / USB / Karaoke",
     value: "500 R",
     status: "disponível",
     category: "sala",
@@ -781,7 +800,9 @@ if (allcards) {
 const cards = document.querySelectorAll(".card");
 
 for (let card of cards) {
-  const value = card.querySelector(".card__status").querySelector("p").innerHTML;
+  const value = card
+    .querySelector(".card__status")
+    .querySelector("p").innerHTML;
   if (value == "vendido") {
     let image_container = card.querySelector(".card__image-container");
     image_container.appendChild(document.createElement("div"));
