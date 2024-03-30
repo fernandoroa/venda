@@ -575,7 +575,7 @@ if (others_cards) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="pictures/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
@@ -617,7 +617,7 @@ if (room_cards) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="pictures/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
@@ -659,7 +659,7 @@ if (study_cards) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="pictures/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
@@ -701,7 +701,7 @@ if (living) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="pictures/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
@@ -743,7 +743,7 @@ if (cozinha_cards) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="pictures/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
@@ -786,7 +786,7 @@ if (allcards) {
       return `
       <div class="card" id="${item.id}">
         <div class="card__image-container">
-          <img src="pictures/${item.filename}" alt="${item.object_name}">
+          <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
         </div>
         <div class="card__content">
           <p>${item.object_name}</p>
