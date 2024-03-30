@@ -431,7 +431,7 @@ const objects = [
     description: "4 gavetas",
     link: "",
     external_link: "",
-    status: "reservado",
+    status: "vendido",
     category: "quarto",
   },
   {
@@ -579,7 +579,7 @@ if (others_cards) {
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
-        ${item.description}      
+        <p>${item.description}</p>
       </div>
       <div class="card__info">
         <p>${item.value}</p>
@@ -621,7 +621,7 @@ if (room_cards) {
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
-        ${item.description}      
+        <p>${item.description}</p>
       </div>
       <div class="card__info">
         <p>${item.value}</p>
@@ -663,7 +663,7 @@ if (study_cards) {
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
-        ${item.description}      
+        <p>${item.description}</p>
       </div>
       <div class="card__info">
         <p>${item.value}</p>
@@ -705,7 +705,7 @@ if (living) {
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
-        ${item.description}      
+        <p>${item.description}</p>
       </div>
       <div class="card__info">
         <p>${item.value}</p>
@@ -747,7 +747,7 @@ if (cozinha_cards) {
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
-        ${item.description}      
+        <p>${item.description}</p>
       </div>
       <div class="card__info">
         <p>${item.value}</p>
@@ -790,7 +790,7 @@ if (allcards) {
         </div>
         <div class="card__content">
           <p>${item.object_name}</p>
-          ${item.description}      
+          <p>${item.description}</p>
         </div>
         <div class="card__info">
           <p>${item.value}</p>
@@ -822,4 +822,28 @@ for (let card of cards) {
     image_container.appendChild(document.createElement("div"));
     image_container.querySelector("div").classList.add("loader");
   }
+}
+
+const modalOverlay = document.querySelector(".modal-overlay");
+
+document.querySelector(".close-modal").addEventListener("click", function () {
+  modalOverlay.classList.remove("active");
+  modalOverlay.querySelector("img").src = "";
+});
+
+for (let card of cards) {
+  card.addEventListener("click", function () {
+    const filename = card.querySelector("img").getAttribute("src");
+    const dishname = card
+      .querySelector(".card__content")
+      .querySelector("p").innerHTML;
+    const value = card
+      .querySelector(".card__info")
+      .querySelector("p").innerHTML;
+
+    modalOverlay.classList.add("active");
+    modalOverlay.querySelector("img").src = filename;
+    modalOverlay.querySelector("h1").innerText = dishname;
+    modalOverlay.querySelector("span").innerText = `por ${value}`;
+  });
 }
