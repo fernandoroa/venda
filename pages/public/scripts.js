@@ -834,16 +834,17 @@ document.querySelector(".close-modal").addEventListener("click", function () {
 for (let card of cards) {
   card.addEventListener("click", function () {
     const filename = card.querySelector("img").getAttribute("src");
-    const dishname = card
+    let item_name = card
       .querySelector(".card__content")
       .querySelector("p").innerHTML;
+    item_name = item_name.replace(/&amp;/, "&");
     const value = card
       .querySelector(".card__info")
       .querySelector("p").innerHTML;
 
     modalOverlay.classList.add("active");
     modalOverlay.querySelector("img").src = filename;
-    modalOverlay.querySelector("h1").innerText = dishname;
+    modalOverlay.querySelector("h1").innerText = item_name;
     modalOverlay.querySelector("span").innerText = `por ${value}`;
   });
 }
