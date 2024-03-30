@@ -1,29 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #6558c3;
   --color-green: #50fa7b;
-  --color-rocket: #7159c1;
-  --color-gray: #444444;
-  --color-red: #dc4747;
   --color-light-gray: #eeeeee;
   --color-inter-gray: #999999;
   --color-black: #111111;
   --color-black-bottom: #333;
-  --color-cream: #fbdfdb;
   --color-blue: #aadfdb;
-  --color-light-brown: #555;
-  --color-soft-brown: #ddd;
-}
-
-html {
-  zoom: 80%;
 }
 
 * {
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+p,
+a {
+  font-size: 0.8em;
+  line-height: 16px;
 }
 
 body {
@@ -53,19 +48,6 @@ select {
     padding-left: 230px;
     padding-right: 230px;
   }
-
-  .admin_content {
-    padding-left: 230px;
-    padding-right: 230px;
-  }
-
-  header.admin {
-    padding-left: 230px;
-  }
-
-  .links.admin {
-    padding-right: 230px;
-  }
 }
 
 @media only screen and (max-width: 940px) {
@@ -74,11 +56,6 @@ select {
     grid-template-columns: 1fr 1fr;
   }
   .inner-body {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .admin_content {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -92,25 +69,10 @@ select {
   grid-template-rows: auto 1fr auto;
 }
 
-.body-content-admin {
-  background-color: white;
-  min-height: 100vh;
-  padding-bottom: 100px;
-  margin-bottom: 100px;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-
 header {
   border-bottom: 3px solid var(--color-black-bottom);
   background: white;
   max-width: 940px;
-}
-
-header.admin {
-  background: black;
-  border-bottom: none;
-  max-width: 100% !important;
 }
 
 footer {
@@ -143,23 +105,8 @@ footer p {
 .links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 1rem;
   align-items: center;
-  justify-items: center;
   height: 80px;
-}
-
-.links.admin {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 6fr;
-  grid-gap: 1rem;
-  align-items: center;
-  justify-items: center;
-  height: 80px;
-}
-
-.links input {
-  margin-top: 0;
 }
 
 .logo {
@@ -174,31 +121,9 @@ footer p {
 
 .links a {
   color: black;
-  font-size: 16px;
+  font-size: 0.8em;
   line-height: 26px;
   text-decoration: none;
-}
-
-header.admin .links a {
-  font-size: 12px;
-  line-height: 28px;
-  text-decoration: none;
-  color: var(--color-inter-gray);
-  cursor: pointer;
-}
-
-header.admin .links a.active {
-  color: white;
-  font-weight: bold;
-}
-
-.links a.active {
-  font-weight: bold;
-}
-
-.links a:hover {
-  color: var(--color-green);
-  transition: color 2200ms;
 }
 
 .banner {
@@ -223,169 +148,13 @@ header.admin .links a.active {
 #banner_text p {
   padding-top: 10px;
   padding-left: 60px;
-  font: size 18px;
-  line-height: 28px;
-  width: 316px;
-  font-weight: regular;
-}
-
-.paragraphs p {
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: regular;
-  color: var(--color-gray);
-  padding-top: 20px;
-}
-
-.paragraphs h1 {
-  padding-top: 20px;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 34px;
-}
-
-.paragraphs h2 {
-  padding-top: 20px;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 0.8em;
+  line-height: 18px;
+  font-weight: normal;
 }
 
 #wrapper {
   text-align: left;
-}
-
-.recipe img {
-  margin-top: 35px;
-  border-radius: 25px;
-}
-
-#recipe_title h1 {
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  color: var(--color-black);
-  padding-top: 25px;
-}
-
-#recipe_title h2 {
-  text-align: center;
-  color: var(--color-black);
-  padding-top: 25px;
-}
-
-.recipe__section .title_button_container {
-  display: inline-flex;
-}
-
-.same-line {
-  padding-top: 16px;
-  margin-top: 2vh;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.same-line h1,
-h2 {
-  font-size: 24px;
-  justify-self: flex-start;
-  margin-right: auto;
-}
-
-.same-line .admin-title {
-  margin-top: 0;
-}
-
-.chef__section,
-.recipe__section {
-  margin-top: 25px;
-}
-
-.chef__section h2,
-.recipe__section h2,
-.title_button_container h2,
-.same-line h2 {
-  font-size: 16px;
-  line-height: 28px;
-  color: var(--color-black);
-}
-
-/*button */
-.recipe__section .title_button_container .button span {
-  font-size: 12px;
-  line-height: 28px;
-  color: var(--color-inter-gray);
-  padding-left: 20px;
-  padding-top: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  vertical-align: bottom;
-}
-
-.recipe__section li {
-  font-size: 18px;
-  line-height: 28px;
-  color: var(--color-gray);
-}
-
-ul {
-  list-style: none;
-  padding-top: 15px;
-}
-
-ul li::before {
-  content: "\2022";
-  color: black;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-}
-
-.ingredients__content {
-  visibility: visible;
-  display: unset;
-}
-
-.ingredients__content.inactive {
-  display: none;
-  /*visibility: hidden;*/
-}
-
-.preparation__content {
-  visibility: visible;
-  display: unset;
-}
-
-.preparation__content.inactive {
-  display: none;
-}
-
-.information__content {
-  visibility: visible;
-  display: unset;
-  white-space: pre-line;
-}
-
-.information__content.inactive {
-  display: none;
-}
-
-.recipe__section p {
-  font-size: 18px;
-  line-height: 28px;
-  color: var(--color-gray);
-}
-
-.information__content p {
-  padding-top: 25px;
-}
-
-#recipe__chef_name {
-  padding-top: 4px;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  color: var(--color-gray);
 }
 
 #wrapper img {
@@ -395,8 +164,7 @@ ul li::before {
   height: 200px;
 }
 
-#wrapper h1,
-.admin-title h1 {
+#wrapper h1 {
   font-size: 24px;
   line-height: 28px;
   font-weight: bold;
@@ -433,50 +201,31 @@ ul li::before {
   height: fit-content;
 }
 
-.cards-manager {
-  max-width: 940px;
-  margin: 0 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  padding-top: 25px;
-}
-
-.cardRecipeManager {
-  display: grid;
-  grid-template-columns: 172px 1fr;
-  gap: 20px;
-  padding-top: 5px;
-}
-
-.chef_card,
-.card,
-.cardRecipe {
+.card {
   cursor: pointer;
   overflow: hidden;
 }
 
 .card__image-container {
   position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 150px;
+  background-color: black;
+  max-width: 300px;
 }
 
 .card__image-container img {
   object-fit: contain;
-  background-color: black;
-  width: 300px;
   height: 150px;
-  border-radius: 10px;
-}
-
-.card__image-container-manager img {
-  object-fit: cover;
-  width: 172px;
-  height: 80px;
-  border-radius: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* https://stackoverflow.com/questions/55891109/position-a-cross-in-the-center-of-a-square-which-scales-to-the-container-size */
-.outer {
+.outer,
+.loader {
   position: absolute;
   top: 0;
   right: 0;
@@ -515,17 +264,6 @@ ul li::before {
 }
 
 /* https://stackoverflow.com/questions/62802313/bring-background-image-above-a-div */
-.loader {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: yellow 1px solid;
-}
 
 .loader:after {
   content: "";
@@ -536,4 +274,81 @@ ul li::before {
   border-top: yellow 5px solid;
   border-radius: 50%;
   animation: spin 1s linear infinite;
+}
+
+/* modal */
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 50%;
+  visibility: hidden;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  border-radius: 20px;
+  background-color: white;
+  max-width: 1000px;
+  height: 60vh;
+  margin: 25vh auto;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.modal .close-modal {
+  color: #999999;
+  position: absolute;
+  bottom: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.modal .img_container {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  top: 21%;
+  background-color: black;
+  transform: translateY(-50%);
+}
+
+.modal img {
+  object-fit: contain;
+  max-height: 40vh;
+  max-width: 95vw;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.modal h1 {
+  color: #111111;
+  text-align: center;
+  bottom: 100px;
+  font-size: 24px;
+  line-height: 28px;
+  position: absolute;
+}
+
+.modal .modal-value {
+  color: #777777;
+  position: absolute;
+  bottom: 80px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 21px;
 }

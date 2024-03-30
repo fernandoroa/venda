@@ -1,5 +1,23 @@
 const objects = [
   {
+    id: "bike",
+    filename: "bike.jpeg",
+    object_name: "Bike Caiçara Beach",
+    description: "3 x 6 marchas",
+    value: "330 R",
+    status: "disponível",
+    category: "outros",
+  },
+  {
+    id: "patins",
+    filename: "patins.jpeg",
+    object_name: "Patins",
+    description: "",
+    value: "100 R",
+    status: "disponível",
+    category: "outros",
+  },
+  {
     id: "tampas",
     filename: "tampas.jpeg",
     object_name: "6x Tampas de vidro temperado avulsas",
@@ -234,11 +252,20 @@ const objects = [
     category: "study",
   },
   {
+    id: "bombape",
+    filename: "bombape.jpeg",
+    description: "",
+    object_name: "Bomba de pé para colchão Quechua",
+    value: "50 R",
+    status: "disponível",
+    category: "outros",
+  },
+  {
     id: "casalinflavel",
     filename: "casalinflavel.jpeg",
     description: "",
-    object_name: "Bomba de pé + colchão inflável casal",
-    value: "100 R",
+    object_name: "colchão inflável casal",
+    value: "50 R",
     status: "reservado",
     category: "outros",
   },
@@ -246,7 +273,8 @@ const objects = [
     id: "hometheater",
     filename: "hometheater.jpeg",
     object_name: "Home Theater Blu-ray Samsung + 2 pedestais",
-    description: "Subwoofer grande + 5 caixas /Netflix com cabo rede / USB / Karaoke",
+    description:
+      "Subwoofer grande + 5 caixas /Netflix com cabo rede / USB / Karaoke",
     value: "500 R",
     status: "disponível",
     category: "sala",
@@ -403,7 +431,7 @@ const objects = [
     description: "4 gavetas",
     link: "",
     external_link: "",
-    status: "reservado",
+    status: "vendido",
     category: "quarto",
   },
   {
@@ -547,11 +575,11 @@ if (others_cards) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="pictures/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
-        ${item.description}      
+        <p>${item.description}</p>
       </div>
       <div class="card__info">
         <p>${item.value}</p>
@@ -589,11 +617,11 @@ if (room_cards) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="pictures/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
-        ${item.description}      
+        <p>${item.description}</p>
       </div>
       <div class="card__info">
         <p>${item.value}</p>
@@ -631,11 +659,11 @@ if (study_cards) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="pictures/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
-        ${item.description}      
+        <p>${item.description}</p>
       </div>
       <div class="card__info">
         <p>${item.value}</p>
@@ -673,11 +701,11 @@ if (living) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="pictures/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
-        ${item.description}      
+        <p>${item.description}</p>
       </div>
       <div class="card__info">
         <p>${item.value}</p>
@@ -715,11 +743,11 @@ if (cozinha_cards) {
         return `
     <div class="card" id="${item.id}">
       <div class="card__image-container">
-        <img src="pictures/${item.filename}" alt="${item.object_name}">
+        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
       </div>
       <div class="card__content">
         <p>${item.object_name}</p>
-        ${item.description}      
+        <p>${item.description}</p>
       </div>
       <div class="card__info">
         <p>${item.value}</p>
@@ -758,11 +786,11 @@ if (allcards) {
       return `
       <div class="card" id="${item.id}">
         <div class="card__image-container">
-          <img src="pictures/${item.filename}" alt="${item.object_name}">
+          <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
         </div>
         <div class="card__content">
           <p>${item.object_name}</p>
-          ${item.description}      
+          <p>${item.description}</p>
         </div>
         <div class="card__info">
           <p>${item.value}</p>
@@ -781,7 +809,9 @@ if (allcards) {
 const cards = document.querySelectorAll(".card");
 
 for (let card of cards) {
-  const value = card.querySelector(".card__status").querySelector("p").innerHTML;
+  const value = card
+    .querySelector(".card__status")
+    .querySelector("p").innerHTML;
   if (value == "vendido") {
     let image_container = card.querySelector(".card__image-container");
     image_container.appendChild(document.createElement("div"));
@@ -792,4 +822,28 @@ for (let card of cards) {
     image_container.appendChild(document.createElement("div"));
     image_container.querySelector("div").classList.add("loader");
   }
+}
+
+const modalOverlay = document.querySelector(".modal-overlay");
+
+document.querySelector(".close-modal").addEventListener("click", function () {
+  modalOverlay.classList.remove("active");
+  modalOverlay.querySelector("img").src = "";
+});
+
+for (let card of cards) {
+  card.addEventListener("click", function () {
+    const filename = card.querySelector("img").getAttribute("src");
+    const dishname = card
+      .querySelector(".card__content")
+      .querySelector("p").innerHTML;
+    const value = card
+      .querySelector(".card__info")
+      .querySelector("p").innerHTML;
+
+    modalOverlay.classList.add("active");
+    modalOverlay.querySelector("img").src = filename;
+    modalOverlay.querySelector("h1").innerText = dishname;
+    modalOverlay.querySelector("span").innerText = `por ${value}`;
+  });
 }
