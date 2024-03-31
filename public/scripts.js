@@ -1,5 +1,14 @@
 const objects = [
   {
+    id: "movelagua",
+    filename: "movelagua.jpeg",
+    object_name: "Móvel em MDF, para garrafão de agúa",
+    description: "sem custo",
+    value: "0 R",
+    status: "disponível",
+    category: "cozinha",
+  },
+  {
     id: "bike",
     filename: "bike.jpeg",
     object_name: "Bike Caiçara Beach",
