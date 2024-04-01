@@ -158,7 +158,7 @@ const objects = [
     object_name: "Varal",
     description: "",
     value: "60 R",
-    status: "disponível",
+    status: "reservado",
     category: "outros",
   },
   {
@@ -303,7 +303,7 @@ const objects = [
     object_name: "Microondas Panasonic NN-ST27L",
     description: "Pouco uso",
     value: "400 R",
-    status: "disponível",
+    status: "reservado",
     category: "cozinha",
   },
   {
