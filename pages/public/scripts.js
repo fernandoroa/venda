@@ -1,5 +1,14 @@
 const objects = [
   {
+    id: "cadeirapendurar",
+    filename: "cadeirapendurar.jpeg",
+    object_name: "Cadeira tipo balanço/pendurar/rede",
+    description: "seminova",
+    value: "140 R",
+    status: "disponível",
+    category: "outros",
+  },
+  {
     id: "movelagua",
     filename: "movelagua.jpeg",
     object_name: "Móvel em MDF, para garrafão de agúa",
