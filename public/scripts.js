@@ -866,3 +866,16 @@ for (let card of cards) {
     modalOverlay.querySelector("span").innerText = `por ${value}`;
   });
 }
+
+const currentPage = location.pathname;
+const menuItems = document.querySelectorAll("header .links a");
+
+if (currentPage == "/") {
+  menuItems[0].classList.add("active");
+} else {
+  for (item of menuItems) {
+    if (currentPage.includes(item.getAttribute("href"))) {
+      item.classList.add("active");
+    }
+  }
+}

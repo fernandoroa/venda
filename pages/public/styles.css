@@ -27,6 +27,10 @@ a {
   line-height: 16px;
 }
 
+.links a.active {
+  font-weight: bold;
+}
+
 body {
   max-width: 1400px;
   margin: 0 auto;
