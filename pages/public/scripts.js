@@ -870,7 +870,7 @@ for (let card of cards) {
 const currentPage = location.pathname;
 const menuItems = document.querySelectorAll("header .links a");
 
-if (currentPage == "/") {
+if (currentPage == "/" || currentPage == "/venda/") {
   menuItems[0].classList.add("active");
 } else {
   for (item of menuItems) {
