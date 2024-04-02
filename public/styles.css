@@ -15,6 +15,12 @@
   border: 0;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
 p,
 a {
   font-size: 0.8em;
