@@ -167,7 +167,7 @@ const objects = [
     object_name: "Varal",
     description: "",
     value: "60 R",
-    status: "reservado",
+    status: "disponível",
     category: "outros",
   },
   {
