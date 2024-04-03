@@ -212,7 +212,6 @@ footer p {
 }
 
 .card {
-  cursor: pointer;
   overflow: hidden;
 }
 
@@ -223,6 +222,7 @@ footer p {
   height: 150px;
   background-color: black;
   max-width: 300px;
+  cursor: pointer;
 }
 
 .card__image-container img {
