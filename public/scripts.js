@@ -593,14 +593,14 @@ if (others_cards) {
         let link = item.link;
         let spacer = "";
         if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} target="new">ML link</a>`;
+          link = `<a href=${link} class="button-71" target="new">ML link</a>`;
           spacer = "<br>";
         } else {
           link = "";
         }
         let external_link = item.external_link;
         if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} target="new">link externo</a>`;
+          external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
         } else {
           external_link = "";
         }
@@ -635,14 +635,14 @@ if (room_cards) {
         let link = item.link;
         let spacer = "";
         if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} target="new">ML link</a>`;
+          link = `<a href=${link} class="button-71" target="new">ML link</a>`;
           spacer = "<br>";
         } else {
           link = "";
         }
         let external_link = item.external_link;
         if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} target="new">link externo</a>`;
+          external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
         } else {
           external_link = "";
         }
@@ -677,14 +677,14 @@ if (study_cards) {
         let link = item.link;
         let spacer = "";
         if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} target="new">ML link</a>`;
+          link = `<a href=${link} class="button-71" target="new">ML link</a>`;
           spacer = "<br>";
         } else {
           link = "";
         }
         let external_link = item.external_link;
         if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} target="new">link externo</a>`;
+          external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
         } else {
           external_link = "";
         }
@@ -719,14 +719,14 @@ if (living) {
         let link = item.link;
         let spacer = "";
         if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} target="new">ML link</a>`;
+          link = `<a href=${link} class="button-71" target="new">ML link</a>`;
           spacer = "<br>";
         } else {
           link = "";
         }
         let external_link = item.external_link;
         if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} target="new">link externo</a>`;
+          external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
         } else {
           external_link = "";
         }
@@ -761,14 +761,14 @@ if (cozinha_cards) {
         let link = item.link;
         let spacer = "";
         if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} target="new">ML link</a>`;
+          link = `<a href=${link} class="button-71" target="new">ML link</a>`;
           spacer = "<br>";
         } else {
           link = "";
         }
         let external_link = item.external_link;
         if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} target="new">link externo</a>`;
+          external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
         } else {
           external_link = "";
         }
@@ -804,14 +804,14 @@ if (allcards) {
       let link = item.link;
       let spacer = "";
       if ((link != undefined) & (link != "")) {
-        link = `<a href=${link} target="new">ML link</a>`;
+        link = `<a href=${link} class="button-71" target="new">ML link</a>`;
         spacer = "<br>";
       } else {
         link = "";
       }
       let external_link = item.external_link;
       if ((external_link != undefined) & (external_link != "")) {
-        external_link = `${spacer}<a href=${external_link} target="new">link externo</a>`;
+        external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
       } else {
         external_link = "";
       }

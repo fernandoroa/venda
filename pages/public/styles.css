@@ -390,10 +390,8 @@ footer p {
   cursor: pointer;
   transition: box-shadow 0.15s ease, transform 0.15s ease;
   will-change: box-shadow, transform;
-  background: #fcfcfd;
-  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
-    0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
-  height: fit-content;
+  background: rgb(227, 165, 104);
+  box-shadow: 3px 3px 4px rgb(45, 35, 66);
   padding: 5px;
   font-size: 0.8em;
   border-radius: 6px;
@@ -403,11 +401,65 @@ footer p {
 }
 
 .button-72:hover {
+  box-shadow: 4px 4px 8px rgb(45, 35, 66);
+  transform: translateY(-2px);
+}
+.button-72:active {
+  box-shadow: inset 0px 3px 7px #d6d6e7;
+  transform: translateY(2px);
+}
+
+.button-71 {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  will-change: box-shadow, transform;
+  background: rgb(225, 234, 0);
+  box-shadow: 3px 3px 5px rgb(125, 134, 0);
+  padding: 5px;
+  font-size: 0.8em;
+  border-radius: 6px;
+  color: #36395a;
+  text-decoration: none;
+  text-align: center;
+  margin: 4px;
+}
+
+.button-71:hover {
   box-shadow: 0px 4px 8px rgb(45 35 66 / 40%),
     0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
   transform: translateY(-2px);
 }
-.button-72:active {
+.button-71:active {
+  box-shadow: inset 0px 3px 7px #d6d6e7;
+  transform: translateY(2px);
+}
+
+.button-70 {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  will-change: box-shadow, transform;
+  background: rgb(117, 168, 209);
+  box-shadow: 3px 3px 5px rgb(30, 56, 142);
+  padding: 5px;
+  font-size: 0.8em;
+  border-radius: 6px;
+  color: #36395a;
+  text-decoration: none;
+  text-align: center;
+  margin: 4px;
+}
+
+.button-70:hover {
+  box-shadow: 4px 4px 8px rgb(45, 35, 66);
+  transform: translateY(-2px);
+}
+.button-70:active {
   box-shadow: inset 0px 3px 7px #d6d6e7;
   transform: translateY(2px);
 }
