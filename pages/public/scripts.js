@@ -158,9 +158,9 @@ const objects = [
     id: "carrinho",
     filename: "carrinho.jpeg",
     object_name: "Carrinho de Compras",
-    description: "",
-    value: "25 R",
-    status: "disponível",
+    description: "sem custo",
+    value: "0 R",
+    status: "reservado",
     category: "cozinha",
   },
   {
@@ -234,7 +234,7 @@ const objects = [
     description: "O painel tem riscos que ficam ocultos com TV",
     object_name: "Rack TV / painel / Germai / rodinhas",
     value: "250 R",
-    status: "disponível",
+    status: "reservado",
     category: "sala",
     link: "https://acortar.link/pkYgqR",
   },
@@ -593,10 +593,12 @@ if (others_cards) {
         let link = item.link;
         let spacer = "";
         if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} class="button-71" target="new">ML link</a>`;
+          link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
+          MS_link = `<a href="https://ferroao.mercadoshops.com.br/lista/casa-moveis-decoracao/" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
         } else {
           link = "";
+          MS_link = "";
         }
         let external_link = item.external_link;
         if ((external_link != undefined) & (external_link != "")) {
@@ -619,7 +621,10 @@ if (others_cards) {
       <div class="card__status">
         <p>${item.status}</p>
       </div>
-      ${link}
+      <div class="mercado_line">
+        ${MS_link}
+        ${link}
+      </div>
       ${external_link}
     </div>
   `;
@@ -635,10 +640,12 @@ if (room_cards) {
         let link = item.link;
         let spacer = "";
         if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} class="button-71" target="new">ML link</a>`;
+          link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
+          MS_link = `<a href="https://ferroao.mercadoshops.com.br/lista/casa-moveis-decoracao/" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
         } else {
           link = "";
+          MS_link = "";
         }
         let external_link = item.external_link;
         if ((external_link != undefined) & (external_link != "")) {
@@ -661,7 +668,10 @@ if (room_cards) {
       <div class="card__status">
         <p>${item.status}</p>
       </div>
-      ${link}
+      <div class="mercado_line">
+        ${MS_link}
+        ${link}
+      </div>
       ${external_link}
     </div>
   `;
@@ -677,10 +687,12 @@ if (study_cards) {
         let link = item.link;
         let spacer = "";
         if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} class="button-71" target="new">ML link</a>`;
+          link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
+          MS_link = `<a href="https://ferroao.mercadoshops.com.br/lista/casa-moveis-decoracao/" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
         } else {
           link = "";
+          MS_link = "";
         }
         let external_link = item.external_link;
         if ((external_link != undefined) & (external_link != "")) {
@@ -703,7 +715,10 @@ if (study_cards) {
       <div class="card__status">
         <p>${item.status}</p>
       </div>
-      ${link}
+      <div class="mercado_line">
+        ${MS_link}
+        ${link}
+      </div>
       ${external_link}
     </div>
   `;
@@ -719,10 +734,12 @@ if (living) {
         let link = item.link;
         let spacer = "";
         if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} class="button-71" target="new">ML link</a>`;
+          link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
+          MS_link = `<a href="https://ferroao.mercadoshops.com.br/lista/casa-moveis-decoracao/" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
         } else {
           link = "";
+          MS_link = "";
         }
         let external_link = item.external_link;
         if ((external_link != undefined) & (external_link != "")) {
@@ -745,7 +762,10 @@ if (living) {
       <div class="card__status">
         <p>${item.status}</p>
       </div>
-      ${link}
+      <div class="mercado_line">
+        ${MS_link}
+        ${link}
+      </div>
       ${external_link}
     </div>
   `;
@@ -761,10 +781,12 @@ if (cozinha_cards) {
         let link = item.link;
         let spacer = "";
         if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} class="button-71" target="new">ML link</a>`;
+          link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
+          MS_link = `<a href="https://ferroao.mercadoshops.com.br/lista/casa-moveis-decoracao/" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
         } else {
           link = "";
+          MS_link = "";
         }
         let external_link = item.external_link;
         if ((external_link != undefined) & (external_link != "")) {
@@ -787,7 +809,10 @@ if (cozinha_cards) {
       <div class="card__status">
         <p>${item.status}</p>
       </div>
-      ${link}
+      <div class="mercado_line">
+        ${MS_link}
+        ${link}
+      </div>
       ${external_link}
     </div>
   `;
@@ -804,10 +829,12 @@ if (allcards) {
       let link = item.link;
       let spacer = "";
       if ((link != undefined) & (link != "")) {
-        link = `<a href=${link} class="button-71" target="new">ML link</a>`;
+        link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
+        MS_link = `<a href="https://ferroao.mercadoshops.com.br/lista/casa-moveis-decoracao/" class="button-72 margin small-button" target="new">MShop link</a>`;
         spacer = "<br>";
       } else {
         link = "";
+        MS_link = "";
       }
       let external_link = item.external_link;
       if ((external_link != undefined) & (external_link != "")) {
@@ -830,7 +857,10 @@ if (allcards) {
         <div class="card__status">
           <p>${item.status}</p>
         </div>
-        ${link}
+        <div class="mercado_line">
+          ${MS_link}
+          ${link}
+        </div>
         ${external_link}
       </div>
     `;
