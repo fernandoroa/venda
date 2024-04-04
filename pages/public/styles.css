@@ -15,10 +15,20 @@
   border: 0;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
 p,
 a {
   font-size: 0.8em;
   line-height: 16px;
+}
+
+.links a.active {
+  font-weight: bold;
 }
 
 body {
@@ -48,9 +58,17 @@ select {
     padding-left: 230px;
     padding-right: 230px;
   }
+
+  .ML-line {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    row-gap: 3px;
+    margin: auto 30px;
+  }
 }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 939px) {
   .cards,
   .allcards {
     grid-template-columns: 1fr 1fr;
@@ -58,6 +76,13 @@ select {
   .inner-body {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .ML-line {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    row-gap: 3px;
+    margin: auto 30px;
   }
 }
 
@@ -139,7 +164,7 @@ footer p {
 }
 
 #banner_text h1 {
-  padding-left: 60px;
+  padding-left: 30px;
   font-size: 32px;
   line-height: 38px;
   font-weight: bold;
@@ -147,10 +172,15 @@ footer p {
 
 #banner_text p {
   padding-top: 10px;
-  padding-left: 60px;
+  padding-left: 30px;
   font-size: 0.8em;
   line-height: 18px;
   font-weight: normal;
+}
+
+#banner_text span {
+  font-size: 0.8em;
+  line-height: 18px;
 }
 
 #wrapper {
@@ -202,7 +232,6 @@ footer p {
 }
 
 .card {
-  cursor: pointer;
   overflow: hidden;
 }
 
@@ -213,6 +242,7 @@ footer p {
   height: 150px;
   background-color: black;
   max-width: 300px;
+  cursor: pointer;
 }
 
 .card__image-container img {
@@ -351,4 +381,33 @@ footer p {
   cursor: pointer;
   font-size: 18px;
   line-height: 21px;
+}
+
+.button-72 {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  will-change: box-shadow, transform;
+  background: #fcfcfd;
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+  height: fit-content;
+  padding: 5px;
+  font-size: 0.8em;
+  border-radius: 6px;
+  color: #36395a;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button-72:hover {
+  box-shadow: 0px 4px 8px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+  transform: translateY(-2px);
+}
+.button-72:active {
+  box-shadow: inset 0px 3px 7px #d6d6e7;
+  transform: translateY(2px);
 }

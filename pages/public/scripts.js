@@ -1,5 +1,23 @@
 const objects = [
   {
+    id: "cadeirapendurar",
+    filename: "cadeirapendurar.jpeg",
+    object_name: "Cadeira tipo balanço/pendurar/rede",
+    description: "seminova",
+    value: "140 R",
+    status: "disponível",
+    category: "outros",
+  },
+  {
+    id: "movelagua",
+    filename: "movelagua.jpeg",
+    object_name: "Móvel em MDF, para garrafão de agúa",
+    description: "sem custo",
+    value: "0 R",
+    status: "reservado",
+    category: "cozinha",
+  },
+  {
     id: "bike",
     filename: "bike.jpeg",
     object_name: "Bike Caiçara Beach",
@@ -7,6 +25,7 @@ const objects = [
     value: "330 R",
     status: "disponível",
     category: "outros",
+    link: "https://shorturl.at/joyKU",
   },
   {
     id: "patins",
@@ -106,6 +125,7 @@ const objects = [
     value: "200 R",
     status: "disponível",
     category: "cozinha",
+    link: "https://acortar.link/rMKWrS",
   },
   {
     id: "ticotico",
@@ -169,6 +189,7 @@ const objects = [
     value: "100 R",
     status: "disponível",
     category: "outros",
+    link: "https://acortar.link/KBHmYa",
   },
   {
     id: "colchaosolteiro",
@@ -187,6 +208,7 @@ const objects = [
     value: "1000 R",
     status: "disponível",
     category: "outros",
+    link: "https://acortar.link/yUkyqC",
   },
   {
     id: "zapateiro",
@@ -214,6 +236,7 @@ const objects = [
     value: "250 R",
     status: "disponível",
     category: "sala",
+    link: "https://acortar.link/pkYgqR",
   },
   {
     id: "mesa",
@@ -223,6 +246,7 @@ const objects = [
     value: "280 R",
     status: "disponível",
     category: "sala",
+    link: "https://acortar.link/YInwqb",
   },
   {
     id: "sofa3",
@@ -232,6 +256,7 @@ const objects = [
     value: "300 R",
     status: "disponível",
     category: "sala",
+    link: "https://shorturl.at/fgoGH",
   },
   {
     id: "sofa2",
@@ -241,6 +266,7 @@ const objects = [
     value: "200 R",
     status: "disponível",
     category: "sala",
+    link: "https://shorturl.at/fgoGH",
   },
   {
     id: "cadeirapresidente",
@@ -250,6 +276,7 @@ const objects = [
     value: "2000 R",
     status: "disponível",
     category: "study",
+    link: "https://acortar.link/DmAyFk",
   },
   {
     id: "bombape",
@@ -278,6 +305,7 @@ const objects = [
     value: "500 R",
     status: "disponível",
     category: "sala",
+    link: "https://acortar.link/RS60kH",
   },
   {
     id: "geladeira",
@@ -287,6 +315,7 @@ const objects = [
     value: "800 R",
     status: "disponível",
     category: "cozinha",
+    link: "https://acortar.link/Ikya3x",
   },
   {
     id: "microondas",
@@ -294,7 +323,7 @@ const objects = [
     object_name: "Microondas Panasonic NN-ST27L",
     description: "Pouco uso",
     value: "400 R",
-    status: "disponível",
+    status: "reservado",
     category: "cozinha",
   },
   {
@@ -305,6 +334,7 @@ const objects = [
     value: "450 R",
     status: "disponível",
     category: "cozinha",
+    link: "https://acortar.link/5Nsvi8",
   },
   {
     id: "escrivaninha",
@@ -314,6 +344,7 @@ const objects = [
     value: "170 R",
     status: "disponível",
     category: "study",
+    link: "https://acortar.link/huQmJh",
   },
   {
     id: "comoda",
@@ -323,6 +354,7 @@ const objects = [
     value: "300 R",
     status: "disponível",
     category: "quarto",
+    link: "https://shorturl.at/hiqG8",
   },
   {
     id: "espremedor",
@@ -363,7 +395,7 @@ const objects = [
     object_name: "Panelas Brinox Ceramic Life",
     value: "400 R",
     description: "ou 70-90 R por peça/algumas peças sem uso",
-    link: "",
+    link: "https://acortar.link/wHax7u",
     external_link: "",
     status: "disponível",
     category: "cozinha",
@@ -374,7 +406,7 @@ const objects = [
     object_name: 'TV Samsung 48" 3D',
     value: "1500 R",
     description: "Netflix, youtube",
-    link: "",
+    link: "https://shorturl.at/bquvL",
     external_link: "",
     status: "disponível",
     category: "sala",
@@ -385,7 +417,7 @@ const objects = [
     object_name: "Tela Acer Gamer XV280K + cabo tb",
     value: "2000 R",
     description: "",
-    link: "",
+    link: "https://acortar.link/Q5c9Wb",
     external_link: "https://acortar.link/POPZ9z",
     status: "disponível",
     category: "study",
@@ -462,7 +494,7 @@ const objects = [
     object_name: "Impr Epson TX115 Sist. continuo de tinta",
     value: "120 R",
     description: "+ transf 220 -> 110V (mod. isol.)",
-    link: "",
+    link: "https://acortar.link/pgz1If",
     external_link: "",
     status: "disponível",
     category: "study",
@@ -484,7 +516,7 @@ const objects = [
     object_name: "Maquina Lavar Brastemp 8kg",
     value: "700 R",
     description: "2 niveis de agua",
-    link: "",
+    link: "https://acortar.link/j276MV",
     external_link: "",
     status: "disponível",
     category: "outros",
@@ -508,18 +540,18 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "reservado (combo)",
+    status: "disponível",
     category: "quarto",
   },
   {
     id: "colchaocasal",
     filename: "colchaocasal.jpeg",
     object_name: "Colchão Casal",
-    value: "500 R",
+    value: "450 R",
     description: "pequenos rasgões na superficie",
     link: "",
     external_link: "",
-    status: "reservado (combo)",
+    status: "reservado (prioridade combo)",
     category: "quarto",
   },
   {
@@ -530,7 +562,7 @@ const objects = [
     description: "pequenos rasgões na superficie do colchão",
     link: "https://acortar.link/ke1sZl",
     external_link: "",
-    status: "reservado",
+    status: "disponível",
     category: "quarto",
   },
 ];
@@ -807,6 +839,7 @@ if (allcards) {
 }
 
 const cards = document.querySelectorAll(".card");
+const cards_img_container = document.querySelectorAll(".card__image-container");
 
 for (let card of cards) {
   const value = card
@@ -831,9 +864,10 @@ document.querySelector(".close-modal").addEventListener("click", function () {
   modalOverlay.querySelector("img").src = "";
 });
 
-for (let card of cards) {
-  card.addEventListener("click", function () {
-    const filename = card.querySelector("img").getAttribute("src");
+for (let card_img of cards_img_container) {
+  let card = card_img.parentNode;
+  card_img.addEventListener("click", function () {
+    const filename = card_img.querySelector("img").getAttribute("src");
     let item_name = card
       .querySelector(".card__content")
       .querySelector("p").innerHTML;
@@ -847,4 +881,17 @@ for (let card of cards) {
     modalOverlay.querySelector("h1").innerText = item_name;
     modalOverlay.querySelector("span").innerText = `por ${value}`;
   });
+}
+
+const currentPage = location.pathname;
+const menuItems = document.querySelectorAll("header .links a");
+
+if (currentPage == "/" || currentPage == "/venda/") {
+  menuItems[0].classList.add("active");
+} else {
+  for (item of menuItems) {
+    if (currentPage.includes(item.getAttribute("href"))) {
+      item.classList.add("active");
+    }
+  }
 }
