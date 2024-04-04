@@ -58,9 +58,17 @@ select {
     padding-left: 230px;
     padding-right: 230px;
   }
+
+  .ML-line {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    row-gap: 3px;
+    margin: auto 30px;
+  }
 }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 939px) {
   .cards,
   .allcards {
     grid-template-columns: 1fr 1fr;
@@ -68,6 +76,13 @@ select {
   .inner-body {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .ML-line {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    row-gap: 3px;
+    margin: auto 30px;
   }
 }
 
@@ -149,7 +164,7 @@ footer p {
 }
 
 #banner_text h1 {
-  padding-left: 60px;
+  padding-left: 30px;
   font-size: 32px;
   line-height: 38px;
   font-weight: bold;
@@ -157,7 +172,7 @@ footer p {
 
 #banner_text p {
   padding-top: 10px;
-  padding-left: 60px;
+  padding-left: 30px;
   font-size: 0.8em;
   line-height: 18px;
   font-weight: normal;
@@ -366,14 +381,6 @@ footer p {
   cursor: pointer;
   font-size: 18px;
   line-height: 21px;
-}
-
-.ML-line {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 15px;
-  row-gap: 3px;
-  margin: auto 60px;
 }
 
 .button-72 {
