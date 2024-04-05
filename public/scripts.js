@@ -323,7 +323,7 @@ const objects = [
     object_name: "Microondas Panasonic NN-ST27L",
     description: "Pouco uso",
     value: "400 R",
-    status: "reservado",
+    status: "vendido no MShop",
     category: "cozinha",
   },
   {
