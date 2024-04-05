@@ -234,7 +234,7 @@ const objects = [
     description: "O painel tem riscos que ficam ocultos com TV",
     object_name: "Rack TV / painel / Germai / rodinhas",
     value: "250 R",
-    status: "reservado",
+    status: "vendido",
     category: "sala",
     link: "https://acortar.link/pkYgqR",
   },
