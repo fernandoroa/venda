@@ -454,3 +454,23 @@ footer p {
   gap: 5px;
   margin: auto 0;
 }
+
+.wa {
+  border-radius: 40px;
+  padding: 5px 6px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  background: #128c7e;
+  text-decoration: none;
+  margin: 50px 30px;
+}
+
+.wa-text {
+  color: white;
+}
+
+.fa-whatsapp {
+  color: white;
+  background-color: #128c7e;
+}
