@@ -160,7 +160,7 @@ const objects = [
     object_name: "Carrinho de Compras",
     description: "sem custo",
     value: "0 R",
-    status: "reservado",
+    status: "doado",
     category: "cozinha",
   },
   {
@@ -323,7 +323,7 @@ const objects = [
     object_name: "Microondas Panasonic NN-ST27L",
     description: "Pouco uso",
     value: "400 R",
-    status: "reservado",
+    status: "vendido no MShop",
     category: "cozinha",
   },
   {
@@ -875,7 +875,7 @@ for (let card of cards) {
   const value = card
     .querySelector(".card__status")
     .querySelector("p").innerHTML;
-  if (value == "vendido") {
+  if (value.includes("vendid") || value.includes("doad")) {
     let image_container = card.querySelector(".card__image-container");
     image_container.appendChild(document.createElement("div"));
     image_container.querySelector("div").classList.add("outer");
