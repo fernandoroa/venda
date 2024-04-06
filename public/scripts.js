@@ -7,6 +7,7 @@ const objects = [
     value: "140 R",
     status: "disponível",
     category: "outros",
+    link: "https://produto.mercadolivre.com.br/MLB-3648937001-cadeira-tipo-rede-artesanal-_JM",
   },
   {
     id: "movelagua",
@@ -639,7 +640,7 @@ if (room_cards) {
         let spacer = "";
         if ((link != undefined) & (link != "")) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
-          MS_link = `<a href="https://ferroao.mercadoshops.com.br/lista/casa-moveis-decoracao/" class="button-72 margin small-button" target="new">MShop link</a>`;
+          MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
         } else {
           link = "";
@@ -685,7 +686,7 @@ if (study_cards) {
         let spacer = "";
         if ((link != undefined) & (link != "")) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
-          MS_link = `<a href="https://ferroao.mercadoshops.com.br/lista/casa-moveis-decoracao/" class="button-72 margin small-button" target="new">MShop link</a>`;
+          MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
         } else {
           link = "";
@@ -731,7 +732,7 @@ if (living) {
         let spacer = "";
         if ((link != undefined) & (link != "")) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
-          MS_link = `<a href="https://ferroao.mercadoshops.com.br/lista/casa-moveis-decoracao/" class="button-72 margin small-button" target="new">MShop link</a>`;
+          MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
         } else {
           link = "";
@@ -777,7 +778,7 @@ if (cozinha_cards) {
         let spacer = "";
         if ((link != undefined) & (link != "")) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
-          MS_link = `<a href="https://ferroao.mercadoshops.com.br/lista/casa-moveis-decoracao/" class="button-72 margin small-button" target="new">MShop link</a>`;
+          MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
         } else {
           link = "";
