@@ -14,7 +14,7 @@ const objects = [
     object_name: "Móvel em MDF, para garrafão de agúa",
     description: "sem custo",
     value: "0 R",
-    status: "reservado",
+    status: "doado",
     category: "cozinha",
   },
   {
@@ -78,7 +78,7 @@ const objects = [
     object_name: "Estante",
     description: "sem custo",
     value: "0 R",
-    status: "reservado",
+    status: "doado",
     category: "study",
   },
   {
@@ -96,7 +96,7 @@ const objects = [
     object_name: "3 ferramentas de jardim",
     description: "",
     value: "12 R (cada uma)",
-    status: "tesoura reservada, 2 disponíveis",
+    status: "tesoura não-disponível, 2 disponíveis",
     category: "outros",
   },
   {
@@ -114,7 +114,7 @@ const objects = [
     object_name: "2x perneiras",
     description: "",
     value: "12 R (cada par)",
-    status: "reservado",
+    status: "1 disponível",
     category: "outros",
   },
   {
@@ -142,7 +142,7 @@ const objects = [
     object_name: "3x cobertor",
     description: "l̶a̶r̶a̶n̶j̶a̶, azul, l̶i̶l̶a̶s̶",
     value: "20 R (cada um)",
-    status: "2 reservado, 1 livre",
+    status: "1 disponível",
     category: "quarto",
   },
   {
@@ -386,7 +386,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "reservado",
+    status: "vendido",
     category: "cozinha",
   },
   {
