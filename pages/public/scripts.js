@@ -581,7 +581,6 @@ const room_cards = document.querySelector(".room_cards");
 const others_cards = document.querySelector(".others_cards");
 const cozinha_cards = document.querySelector(".cozinha_cards");
 const study_cards = document.querySelector(".study_cards");
-
 const allcards = document.querySelector(".allcards");
 
 /* categorys only */
@@ -594,7 +593,7 @@ if (others_cards) {
         let spacer = "";
         if ((link != undefined) & (link != "")) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
-          MS_link = `<a href="https://ferroao.mercadoshops.com.br/lista/casa-moveis-decoracao/" class="button-72 margin small-button" target="new">MShop link</a>`;
+          MS_link = `<a href="https://ferroao.mercadoshops.com.br/nossos-produtos" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
         } else {
           link = "";
@@ -623,7 +622,6 @@ if (others_cards) {
       </div>
       <div class="mercado_line">
         ${MS_link}
-        ${link}
       </div>
       ${external_link}
     </div>
@@ -670,7 +668,6 @@ if (room_cards) {
       </div>
       <div class="mercado_line">
         ${MS_link}
-        ${link}
       </div>
       ${external_link}
     </div>
@@ -717,7 +714,6 @@ if (study_cards) {
       </div>
       <div class="mercado_line">
         ${MS_link}
-        ${link}
       </div>
       ${external_link}
     </div>
@@ -764,7 +760,6 @@ if (living) {
       </div>
       <div class="mercado_line">
         ${MS_link}
-        ${link}
       </div>
       ${external_link}
     </div>
@@ -811,7 +806,6 @@ if (cozinha_cards) {
       </div>
       <div class="mercado_line">
         ${MS_link}
-        ${link}
       </div>
       ${external_link}
     </div>
@@ -830,7 +824,7 @@ if (allcards) {
       let spacer = "";
       if ((link != undefined) & (link != "")) {
         link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
-        MS_link = `<a href="https://ferroao.mercadoshops.com.br/lista/casa-moveis-decoracao/" class="button-72 margin small-button" target="new">MShop link</a>`;
+        MS_link = `<a href="https://ferroao.mercadoshops.com.br/nossos-produtos" class="button-72 margin small-button" target="new">MShop link</a>`;
         spacer = "<br>";
       } else {
         link = "";
@@ -859,7 +853,6 @@ if (allcards) {
         </div>
         <div class="mercado_line">
           ${MS_link}
-          ${link}
         </div>
         ${external_link}
       </div>
