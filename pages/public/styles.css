@@ -384,7 +384,7 @@ footer p {
 }
 
 .small-button {
-  display: inline-block;
+  display: flex;
   outline: 0;
   border: 0;
   cursor: pointer;
@@ -396,6 +396,8 @@ footer p {
   color: #36395a;
   text-decoration: none;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .button-72 {
