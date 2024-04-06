@@ -551,7 +551,7 @@ const objects = [
     description: "pequenos rasgões na superficie",
     link: "",
     external_link: "",
-    status: "reservado (prioridade combo)",
+    status: "disponível",
     category: "quarto",
   },
   {
