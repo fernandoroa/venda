@@ -439,7 +439,7 @@ const objects = [
     object_name: "Cadeira plastico, pés alumino",
     value: "200 R",
     description: "",
-    link: "",
+    link: "https://produto.mercadolivre.com.br/MLB-3648948155-cadeira-pes-aluminio-_JM",
     external_link: "",
     status: "disponível",
     category: "study",
