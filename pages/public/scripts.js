@@ -541,7 +541,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "reservado",
     category: "quarto",
   },
   {
@@ -550,9 +550,9 @@ const objects = [
     object_name: "Colchão Casal",
     value: "450 R",
     description: "pequenos rasgões na superficie",
-    link: "",
+    link: "https://ferroao.mercadoshops.com.br/",
     external_link: "",
-    status: "disponível",
+    status: "reservado",
     category: "quarto",
   },
   {
@@ -563,7 +563,7 @@ const objects = [
     description: "pequenos rasgões na superficie do colchão",
     link: "https://acortar.link/ke1sZl",
     external_link: "",
-    status: "disponível",
+    status: "reservado",
     category: "quarto",
   },
 ];
