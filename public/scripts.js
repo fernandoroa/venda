@@ -7,6 +7,8 @@ const objects = [
     value: "140 R",
     status: "disponível",
     category: "outros",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/para-a-sua-casa/area-externa/cadeira-tipo-balanco-pendurar-rede-1294582902?",
     link: "https://produto.mercadolivre.com.br/MLB-3648937001-cadeira-tipo-rede-artesanal-_JM",
   },
   {
@@ -27,6 +29,8 @@ const objects = [
     status: "disponível",
     category: "outros",
     link: "https://shorturl.at/joyKU",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/esportes-e-fitness/quadra-e-ao-ar-livre/bike-caicara-beach-3-x-6-marchas-1294584822?",
   },
   {
     id: "patins",
@@ -191,6 +195,8 @@ const objects = [
     status: "disponível",
     category: "outros",
     link: "https://acortar.link/KBHmYa",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/materiais-de-construcao/ferramentas-de-construcao/furadeira-tramontina-500w-220v-1294581775?",
   },
   {
     id: "colchaosolteiro",
@@ -209,6 +215,8 @@ const objects = [
     value: "1000 R",
     status: "disponível",
     category: "outros",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/eletro/ventiladores-e-climatizadores/climatizador-sixxis-sx015a-1294585904?",
     link: "https://acortar.link/yUkyqC",
   },
   {
@@ -245,6 +253,8 @@ const objects = [
     description: "O corino das cadeiras tem rasgões pequenos",
     object_name: "Mesa vidro/metálica 4 cadeiras",
     value: "280 R",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/mesas/mesa-393-vidro-incolor-cromada-com-4-cadeiras-154-1294563791?",
     status: "disponível",
     category: "sala",
     link: "https://acortar.link/YInwqb",
@@ -257,6 +267,8 @@ const objects = [
     value: "300 R",
     status: "disponível",
     category: "sala",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/sofas-e-poltronas/conjunto-sofa-hellen-turquia-3-e-2-lugares-1294561846?",
     link: "https://shorturl.at/fgoGH",
   },
   {
@@ -267,6 +279,8 @@ const objects = [
     value: "200 R",
     status: "disponível",
     category: "sala",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/sofas-e-poltronas/conjunto-sofa-hellen-turquia-3-e-2-lugares-1294561846?",
     link: "https://shorturl.at/fgoGH",
   },
   {
@@ -278,6 +292,8 @@ const objects = [
     status: "disponível",
     category: "study",
     link: "https://acortar.link/DmAyFk",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/cadeiras-de-escritorio-e-gamer/cadeira-presidente-cavaletti-way-gamer-1294571947?",
   },
   {
     id: "bombape",
@@ -307,6 +323,8 @@ const objects = [
     status: "disponível",
     category: "sala",
     link: "https://acortar.link/RS60kH",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/tvs-e-video/dvd-blu-ray-video-cassete/home-theater-blu-ray-samsung-2-pedestais-subwoofer-grande-5-caixas-netflix-com-cabo-1294573208?",
   },
   {
     id: "geladeira",
@@ -317,6 +335,8 @@ const objects = [
     status: "disponível",
     category: "cozinha",
     link: "https://acortar.link/Ikya3x",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/eletro/geladeiras-e-freezers/geladeira-consul-crd36-1294578643?",
   },
   {
     id: "microondas",
@@ -336,6 +356,8 @@ const objects = [
     status: "disponível",
     category: "cozinha",
     link: "https://acortar.link/5Nsvi8",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/eletro/fogoes-e-fornos/fogao-esmaltec-topazio-1294578567?",
   },
   {
     id: "escrivaninha",
@@ -346,6 +368,8 @@ const objects = [
     status: "disponível",
     category: "study",
     link: "https://acortar.link/huQmJh",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/cadeiras-de-escritorio-e-gamer/escrivaninha-2-gavetas-1294570863?",
   },
   {
     id: "comoda",
@@ -397,6 +421,8 @@ const objects = [
     value: "400 R",
     description: "ou 70-90 R por peça/algumas peças sem uso",
     link: "https://acortar.link/wHax7u",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/para-a-sua-casa/utensilios-para-cozinha/panelas-brinox-ceramic-life-1294576757?",
     external_link: "",
     status: "disponível",
     category: "cozinha",
@@ -409,6 +435,8 @@ const objects = [
     description: "Netflix, youtube",
     link: "https://shorturl.at/bquvL",
     external_link: "",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/tvs-e-video/tvs/samsung-tv-48-pol-serie-6-3d-6800-1294574050?",
     status: "disponível",
     category: "sala",
   },
@@ -420,6 +448,8 @@ const objects = [
     description: "",
     link: "https://acortar.link/Q5c9Wb",
     external_link: "https://acortar.link/POPZ9z",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/informatica/monitores/tela-acer-gamer-xv280k-cabo-thunderbolt-1294574498?",
     status: "disponível",
     category: "study",
   },
@@ -441,6 +471,8 @@ const objects = [
     value: "200 R",
     description: "",
     link: "https://produto.mercadolivre.com.br/MLB-3648948155-cadeira-pes-aluminio-_JM",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/cadeiras-de-escritorio-e-gamer/cadeira-plasnew-pes-aluminio-1294571257?",
     external_link: "",
     status: "disponível",
     category: "study",
@@ -496,6 +528,8 @@ const objects = [
     value: "120 R",
     description: "+ transf 220 -> 110V (mod. isol.)",
     link: "https://acortar.link/pgz1If",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/informatica/perifericos-de-computador/impressora-a-cor-multifuncional-epson-stylus-tx115-1294573796?",
     external_link: "",
     status: "disponível",
     category: "study",
@@ -519,6 +553,8 @@ const objects = [
     description: "2 niveis de agua",
     link: "https://acortar.link/j276MV",
     external_link: "",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/eletro/maquinas-de-lavar-e-secadoras/maquina-lavar-brastemp-8kg-clean-bwc08-1294584602?",
     status: "disponível",
     category: "outros",
   },
@@ -552,6 +588,8 @@ const objects = [
     description: "pequenos rasgões na superficie",
     link: "https://ferroao.mercadoshops.com.br/",
     external_link: "",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/camas-e-colchoes/colchao-americanflex-d33-pro-coluna-goiania-1294508204?",
     status: "vendido",
     category: "quarto",
   },
@@ -592,6 +630,12 @@ if (others_cards) {
       if (item.category == "outros") {
         let link = item.link;
         let spacer = "";
+        let olx_link = item.olx_link;
+        if ((olx_link != undefined) & (olx_link != "")) {
+          OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
+        } else {
+          OLX_link = "";
+        }
         if ((link != undefined) & (link != "")) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
           MS_link = `<a href="https://ferroao.mercadoshops.com.br/nossos-produtos" class="button-72 margin small-button" target="new">MShop link</a>`;
@@ -623,6 +667,7 @@ if (others_cards) {
       </div>
       <div class="mercado_line">
         ${MS_link}
+        ${OLX_link}
       </div>
       ${external_link}
     </div>
@@ -638,6 +683,12 @@ if (room_cards) {
       if (item.category == "quarto") {
         let link = item.link;
         let spacer = "";
+        let olx_link = item.olx_link;
+        if ((olx_link != undefined) & (olx_link != "")) {
+          OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
+        } else {
+          OLX_link = "";
+        }
         if ((link != undefined) & (link != "")) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
           MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
@@ -669,6 +720,7 @@ if (room_cards) {
       </div>
       <div class="mercado_line">
         ${MS_link}
+        ${OLX_link}
       </div>
       ${external_link}
     </div>
@@ -684,6 +736,12 @@ if (study_cards) {
       if (item.category == "study") {
         let link = item.link;
         let spacer = "";
+        let olx_link = item.olx_link;
+        if ((olx_link != undefined) & (olx_link != "")) {
+          OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
+        } else {
+          OLX_link = "";
+        }
         if ((link != undefined) & (link != "")) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
           MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
@@ -715,6 +773,7 @@ if (study_cards) {
       </div>
       <div class="mercado_line">
         ${MS_link}
+        ${OLX_link}
       </div>
       ${external_link}
     </div>
@@ -730,6 +789,12 @@ if (living) {
       if (item.category == "sala") {
         let link = item.link;
         let spacer = "";
+        let olx_link = item.olx_link;
+        if ((olx_link != undefined) & (olx_link != "")) {
+          OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
+        } else {
+          OLX_link = "";
+        }
         if ((link != undefined) & (link != "")) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
           MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
@@ -761,6 +826,7 @@ if (living) {
       </div>
       <div class="mercado_line">
         ${MS_link}
+        ${OLX_link}
       </div>
       ${external_link}
     </div>
@@ -776,6 +842,12 @@ if (cozinha_cards) {
       if (item.category == "cozinha") {
         let link = item.link;
         let spacer = "";
+        let olx_link = item.olx_link;
+        if ((olx_link != undefined) & (olx_link != "")) {
+          OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
+        } else {
+          OLX_link = "";
+        }
         if ((link != undefined) & (link != "")) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
           MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
@@ -807,6 +879,7 @@ if (cozinha_cards) {
       </div>
       <div class="mercado_line">
         ${MS_link}
+        ${OLX_link}
       </div>
       ${external_link}
     </div>
@@ -823,6 +896,12 @@ if (allcards) {
     .map((item) => {
       let link = item.link;
       let spacer = "";
+      let olx_link = item.olx_link;
+      if ((olx_link != undefined) & (olx_link != "")) {
+        OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
+      } else {
+        OLX_link = "";
+      }
       if ((link != undefined) & (link != "")) {
         link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
         MS_link = `<a href="https://ferroao.mercadoshops.com.br/nossos-produtos" class="button-72 margin small-button" target="new">MShop link</a>`;
@@ -854,6 +933,7 @@ if (allcards) {
         </div>
         <div class="mercado_line">
           ${MS_link}
+          ${OLX_link}
         </div>
         ${external_link}
       </div>
