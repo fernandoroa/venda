@@ -353,7 +353,7 @@ const objects = [
     description: "45cm x 93(a) x 98 / defeito (10 x 20cm) no canto direito",
     object_name: "Cômoda em Madeira",
     value: "300 R",
-    status: "disponível",
+    status: "vendido",
     category: "quarto",
     link: "https://shorturl.at/hiqG8",
   },
@@ -431,7 +431,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "vendido",
     category: "study",
   },
   {
@@ -541,7 +541,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "reservado",
+    status: "vendido",
     category: "quarto",
   },
   {
@@ -552,7 +552,7 @@ const objects = [
     description: "pequenos rasgões na superficie",
     link: "https://ferroao.mercadoshops.com.br/",
     external_link: "",
-    status: "reservado",
+    status: "vendido",
     category: "quarto",
   },
   {
@@ -563,7 +563,7 @@ const objects = [
     description: "pequenos rasgões na superficie do colchão",
     link: "https://acortar.link/ke1sZl",
     external_link: "",
-    status: "reservado",
+    status: "vendido",
     category: "quarto",
   },
 ];
