@@ -119,7 +119,7 @@ const objects = [
     object_name: "2x perneiras",
     description: "",
     value: "12 R (cada par)",
-    status: "1 disponível",
+    status: "vendido",
     category: "outros",
   },
   {
@@ -138,6 +138,8 @@ const objects = [
     object_name: "Serra tico tico",
     description: "para cortes curvos. + serras manuais",
     value: "140 R",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/materiais-de-construcao/ferramentas-de-construcao/serra-tico-tico-1295156338?",
     status: "disponível",
     category: "outros",
   },
@@ -437,7 +439,7 @@ const objects = [
     external_link: "",
     olx_link:
       "https://go.olx.com.br/grande-goiania-e-anapolis/tvs-e-video/tvs/samsung-tv-48-pol-serie-6-3d-6800-1294574050?",
-    status: "disponível",
+    status: "vendido",
     category: "sala",
   },
   {
