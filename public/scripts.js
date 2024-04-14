@@ -26,7 +26,7 @@ const objects = [
     object_name: "Bike Caiçara Beach",
     description: "3 x 6 marchas",
     value: "330 R",
-    status: "disponível",
+    status: "reservada",
     category: "outros",
     link: "https://shorturl.at/joyKU",
     olx_link:
@@ -322,7 +322,7 @@ const objects = [
     description:
       "Subwoofer grande + 5 caixas /Netflix com cabo rede / USB / Karaoke",
     value: "500 R",
-    status: "disponível",
+    status: "vendido",
     category: "sala",
     link: "https://acortar.link/RS60kH",
     olx_link:
@@ -505,7 +505,7 @@ const objects = [
     id: "barraca",
     filename: "barraca.jpeg",
     object_name: "Barraca Arpenaz (Decathlon) 2 pessoas",
-    value: "200 R",
+    value: "300 R",
     description: "pouco uso",
     link: "",
     external_link: "",
