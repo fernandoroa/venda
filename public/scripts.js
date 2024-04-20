@@ -158,7 +158,7 @@ const objects = [
     object_name: "Ferro Black&Decker 560",
     description: "Vapor",
     value: "40 R",
-    status: "disponível",
+    status: "doado",
     category: "outros",
   },
   {
@@ -176,7 +176,7 @@ const objects = [
     object_name: "Varal",
     description: "",
     value: "60 R",
-    status: "disponível",
+    status: "doado",
     category: "outros",
   },
   {
@@ -236,7 +236,7 @@ const objects = [
     object_name: "3 x nichos brancos 80cm",
     description: "MDF",
     value: "100 R",
-    status: "disponível",
+    status: "vendido",
     category: "sala",
   },
   {
@@ -257,7 +257,7 @@ const objects = [
     value: "280 R",
     olx_link:
       "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/mesas/mesa-393-vidro-incolor-cromada-com-4-cadeiras-154-1294563791?",
-    status: "disponível",
+    status: "doado",
     category: "sala",
     link: "https://acortar.link/YInwqb",
   },
@@ -267,7 +267,7 @@ const objects = [
     description: "tem rasgão de 6cm",
     object_name: "Sofá 3 lugares corino",
     value: "300 R",
-    status: "disponível",
+    status: "doado",
     category: "sala",
     olx_link:
       "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/sofas-e-poltronas/conjunto-sofa-hellen-turquia-3-e-2-lugares-1294561846?",
@@ -279,7 +279,7 @@ const objects = [
     object_name: "Sofá 2 lugares corino",
     description: "",
     value: "200 R",
-    status: "disponível",
+    status: "doado",
     category: "sala",
     olx_link:
       "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/sofas-e-poltronas/conjunto-sofa-hellen-turquia-3-e-2-lugares-1294561846?",
@@ -334,7 +334,7 @@ const objects = [
     object_name: "Geladeira Consul CRD36",
     description: "Não precisa desgelar",
     value: "800 R",
-    status: "disponível",
+    status: "doado",
     category: "cozinha",
     link: "https://acortar.link/Ikya3x",
     olx_link:
@@ -355,7 +355,7 @@ const objects = [
     object_name: "Fogão Esmaltec Topázio",
     description: "o timer não funciona",
     value: "450 R",
-    status: "disponível",
+    status: "doado",
     category: "cozinha",
     link: "https://acortar.link/5Nsvi8",
     olx_link:
@@ -367,7 +367,7 @@ const objects = [
     object_name: "Escrivaninha metal/MDF/plástico/teclado/gavetas/chave",
     description: "",
     value: "170 R",
-    status: "disponível",
+    status: "doado",
     category: "study",
     link: "https://acortar.link/huQmJh",
     olx_link:
@@ -426,7 +426,7 @@ const objects = [
     olx_link:
       "https://go.olx.com.br/grande-goiania-e-anapolis/para-a-sua-casa/utensilios-para-cozinha/panelas-brinox-ceramic-life-1294576757?",
     external_link: "",
-    status: "disponível",
+    status: "vendido",
     category: "cozinha",
   },
   {
@@ -476,7 +476,7 @@ const objects = [
     olx_link:
       "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/cadeiras-de-escritorio-e-gamer/cadeira-plasnew-pes-aluminio-1294571257?",
     external_link: "",
-    status: "disponível",
+    status: "vendido",
     category: "study",
   },
   {
@@ -557,7 +557,7 @@ const objects = [
     external_link: "",
     olx_link:
       "https://go.olx.com.br/grande-goiania-e-anapolis/eletro/maquinas-de-lavar-e-secadoras/maquina-lavar-brastemp-8kg-clean-bwc08-1294584602?",
-    status: "disponível",
+    status: "doado",
     category: "outros",
   },
   {
