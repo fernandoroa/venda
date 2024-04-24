@@ -997,6 +997,11 @@ for (let card of cards) {
   }
 }
 
+/* Cancel main Mshop button with X*/
+let ML_button = document.querySelectorAll(".a_button_container")[0];
+ML_button.appendChild(document.createElement("div"));
+ML_button.querySelector("div").classList.add("outer");
+
 const modalOverlay = document.querySelector(".modal-overlay");
 
 document.querySelector(".close-modal").addEventListener("click", function () {

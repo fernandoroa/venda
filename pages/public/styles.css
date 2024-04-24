@@ -68,6 +68,10 @@ select {
   }
 }
 
+.a_button_container {
+  position: relative;
+}
+
 @media only screen and (max-width: 939px) {
   .cards,
   .allcards {
@@ -83,6 +87,7 @@ select {
     gap: 15px;
     row-gap: 3px;
     margin: auto 30px;
+    position: relative;
   }
 }
 
