@@ -633,12 +633,17 @@ if (others_cards) {
         let link = item.link;
         let spacer = "";
         let olx_link = item.olx_link;
-        if ((olx_link != undefined) & (olx_link != "")) {
+        const value = item.status;
+        let available =
+          !value.includes("vendid") &
+          !value.includes("doad") &
+          !value.includes("indisp");
+        if ((olx_link != undefined) & (olx_link != "") & available) {
           OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
         } else {
           OLX_link = "";
         }
-        if ((link != undefined) & (link != "")) {
+        if ((link != undefined) & (link != "") & available) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
           MS_link = `<a href="https://ferroao.mercadoshops.com.br/nossos-produtos" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
@@ -686,12 +691,17 @@ if (room_cards) {
         let link = item.link;
         let spacer = "";
         let olx_link = item.olx_link;
-        if ((olx_link != undefined) & (olx_link != "")) {
+        const value = item.status;
+        let available =
+          !value.includes("vendid") &
+          !value.includes("doad") &
+          !value.includes("indisp");
+        if ((olx_link != undefined) & (olx_link != "") & available) {
           OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
         } else {
           OLX_link = "";
         }
-        if ((link != undefined) & (link != "")) {
+        if ((link != undefined) & (link != "") & available) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
           MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
@@ -739,12 +749,17 @@ if (study_cards) {
         let link = item.link;
         let spacer = "";
         let olx_link = item.olx_link;
-        if ((olx_link != undefined) & (olx_link != "")) {
+        const value = item.status;
+        let available =
+          !value.includes("vendid") &
+          !value.includes("doad") &
+          !value.includes("indisp");
+        if ((olx_link != undefined) & (olx_link != "") & available) {
           OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
         } else {
           OLX_link = "";
         }
-        if ((link != undefined) & (link != "")) {
+        if ((link != undefined) & (link != "") & available) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
           MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
@@ -792,12 +807,17 @@ if (living) {
         let link = item.link;
         let spacer = "";
         let olx_link = item.olx_link;
-        if ((olx_link != undefined) & (olx_link != "")) {
+        const value = item.status;
+        let available =
+          !value.includes("vendid") &
+          !value.includes("doad") &
+          !value.includes("indisp");
+        if ((olx_link != undefined) & (olx_link != "") & available) {
           OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
         } else {
           OLX_link = "";
         }
-        if ((link != undefined) & (link != "")) {
+        if ((link != undefined) & (link != "") & available) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
           MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
@@ -845,12 +865,17 @@ if (cozinha_cards) {
         let link = item.link;
         let spacer = "";
         let olx_link = item.olx_link;
-        if ((olx_link != undefined) & (olx_link != "")) {
+        const value = item.status;
+        let available =
+          !value.includes("vendid") &
+          !value.includes("doad") &
+          !value.includes("indisp");
+        if ((olx_link != undefined) & (olx_link != "") & available) {
           OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
         } else {
           OLX_link = "";
         }
-        if ((link != undefined) & (link != "")) {
+        if ((link != undefined) & (link != "") & available) {
           link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
           MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
           spacer = "<br>";
@@ -899,12 +924,17 @@ if (allcards) {
       let link = item.link;
       let spacer = "";
       let olx_link = item.olx_link;
-      if ((olx_link != undefined) & (olx_link != "")) {
+      const value = item.status;
+      let available =
+        !value.includes("vendid") &
+        !value.includes("doad") &
+        !value.includes("indisp");
+      if ((olx_link != undefined) & (olx_link != "") & available) {
         OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
       } else {
         OLX_link = "";
       }
-      if ((link != undefined) & (link != "")) {
+      if ((link != undefined) & (link != "") & available) {
         link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
         MS_link = `<a href="https://ferroao.mercadoshops.com.br/nossos-produtos" class="button-72 margin small-button" target="new">MShop link</a>`;
         spacer = "<br>";
@@ -951,7 +981,11 @@ for (let card of cards) {
   const value = card
     .querySelector(".card__status")
     .querySelector("p").innerHTML;
-  if (value.includes("vendid") || value.includes("doad")) {
+  if (
+    value.includes("vendid") ||
+    value.includes("doad") ||
+    value.includes("indisp")
+  ) {
     let image_container = card.querySelector(".card__image-container");
     image_container.appendChild(document.createElement("div"));
     image_container.querySelector("div").classList.add("outer");
