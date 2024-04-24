@@ -5,7 +5,7 @@ const objects = [
     object_name: "Cadeira tipo balanço/pendurar/rede",
     description: "seminova",
     value: "140 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
     olx_link:
       "https://go.olx.com.br/grande-goiania-e-anapolis/para-a-sua-casa/area-externa/cadeira-tipo-balanco-pendurar-rede-1294582902?",
@@ -26,7 +26,7 @@ const objects = [
     object_name: "Bike Caiçara Beach",
     description: "3 x 6 marchas",
     value: "330 R",
-    status: "reservada",
+    status: "vendida",
     category: "outros",
     link: "https://shorturl.at/joyKU",
     olx_link:
@@ -38,7 +38,7 @@ const objects = [
     object_name: "Patins",
     description: "",
     value: "100 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -47,7 +47,7 @@ const objects = [
     object_name: "6x Tampas de vidro temperado avulsas",
     description: "A maioria Tramontina",
     value: "15 R cada",
-    status: "disponível",
+    status: "indisponível",
     category: "cozinha",
   },
   {
@@ -56,7 +56,7 @@ const objects = [
     object_name: "Apoio para pés",
     description: "pouco uso",
     value: "80 R",
-    status: "disponível",
+    status: "indisponível",
     category: "study",
   },
   {
@@ -65,7 +65,7 @@ const objects = [
     object_name: "bombona 80L com torneira",
     description: "",
     value: "80 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -74,7 +74,7 @@ const objects = [
     object_name: "Fogareiro e gas",
     description: "pouco uso",
     value: "90 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -92,7 +92,7 @@ const objects = [
     object_name: "Astro, luz de várias cores",
     description: "controle remoto",
     value: "60 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -101,7 +101,7 @@ const objects = [
     object_name: "3 ferramentas de jardim",
     description: "",
     value: "12 R (cada uma)",
-    status: "tesoura não-disponível, 2 disponíveis",
+    status: "indisponĩvel",
     category: "outros",
   },
   {
@@ -110,7 +110,7 @@ const objects = [
     object_name: "Snorkel de 1 peça, de superficie",
     description: "Decathlon",
     value: "120 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -128,7 +128,7 @@ const objects = [
     object_name: "Botijão de Gas 13kg",
     description: "2 a 3kg de gas (20%)",
     value: "200 R",
-    status: "disponível",
+    status: "indisponível",
     category: "cozinha",
     link: "https://acortar.link/rMKWrS",
   },
@@ -140,7 +140,7 @@ const objects = [
     value: "140 R",
     olx_link:
       "https://go.olx.com.br/grande-goiania-e-anapolis/materiais-de-construcao/ferramentas-de-construcao/serra-tico-tico-1295156338?",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -149,7 +149,7 @@ const objects = [
     object_name: "3x cobertor",
     description: "l̶a̶r̶a̶n̶j̶a̶, azul, l̶i̶l̶a̶s̶",
     value: "20 R (cada um)",
-    status: "1 disponível",
+    status: "indisponível",
     category: "quarto",
   },
   {
@@ -185,7 +185,7 @@ const objects = [
     object_name: "Porta chaves",
     description: "Madeira, rustico",
     value: "30 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -194,7 +194,7 @@ const objects = [
     description: "+ brocas",
     object_name: "Furadeira Tramontina 500W 220V",
     value: "100 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
     link: "https://acortar.link/KBHmYa",
     olx_link:
@@ -215,7 +215,7 @@ const objects = [
     object_name: "Climatizador Sixxis",
     description: "Pouco uso",
     value: "1000 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
     olx_link:
       "https://go.olx.com.br/grande-goiania-e-anapolis/eletro/ventiladores-e-climatizadores/climatizador-sixxis-sx015a-1294585904?",
@@ -227,7 +227,7 @@ const objects = [
     object_name: "Zapateiro de madeira",
     value: "80 R",
     description: "",
-    status: "disponível",
+    status: "indisponível",
     category: "sala",
   },
   {
@@ -291,7 +291,7 @@ const objects = [
     object_name: "Cadeira Presidente Way Gamer Cavaletti",
     description: "",
     value: "2000 R",
-    status: "disponível",
+    status: "indisponível",
     category: "study",
     link: "https://acortar.link/DmAyFk",
     olx_link:
@@ -303,7 +303,7 @@ const objects = [
     description: "",
     object_name: "Bomba de pé para colchão Quechua",
     value: "50 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -312,7 +312,7 @@ const objects = [
     description: "",
     object_name: "colchão inflável casal",
     value: "50 R",
-    status: "reservado",
+    status: "vendido",
     category: "outros",
   },
   {
@@ -391,7 +391,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "doado",
     category: "cozinha",
   },
   {
@@ -452,7 +452,7 @@ const objects = [
     external_link: "https://acortar.link/POPZ9z",
     olx_link:
       "https://go.olx.com.br/grande-goiania-e-anapolis/informatica/monitores/tela-acer-gamer-xv280k-cabo-thunderbolt-1294574498?",
-    status: "disponível",
+    status: "indisponível",
     category: "study",
   },
   {
@@ -509,7 +509,7 @@ const objects = [
     description: "pouco uso",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -520,7 +520,7 @@ const objects = [
     description: "crie rede wifi com um chip",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -533,7 +533,7 @@ const objects = [
     olx_link:
       "https://go.olx.com.br/grande-goiania-e-anapolis/informatica/perifericos-de-computador/impressora-a-cor-multifuncional-epson-stylus-tx115-1294573796?",
     external_link: "",
-    status: "disponível",
+    status: "indisponível",
     category: "study",
   },
   {
@@ -544,7 +544,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "doado",
     category: "quarto",
   },
   {
@@ -568,7 +568,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "reservado",
+    status: "vendido",
     category: "outros",
   },
   {
