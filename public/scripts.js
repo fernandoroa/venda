@@ -630,55 +630,7 @@ if (others_cards) {
   others_cards.innerHTML = objects
     .map((item) => {
       if (item.category == "outros") {
-        let link = item.link;
-        let spacer = "";
-        let olx_link = item.olx_link;
-        const value = item.status;
-        let available =
-          !value.includes("vendid") &
-          !value.includes("doad") &
-          !value.includes("indisp");
-        if ((olx_link != undefined) & (olx_link != "") & available) {
-          OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
-        } else {
-          OLX_link = "";
-        }
-        if ((link != undefined) & (link != "") & available) {
-          link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
-          MS_link = `<a href="https://ferroao.mercadoshops.com.br/nossos-produtos" class="button-72 margin small-button" target="new">MShop link</a>`;
-          spacer = "<br>";
-        } else {
-          link = "";
-          MS_link = "";
-        }
-        let external_link = item.external_link;
-        if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
-        } else {
-          external_link = "";
-        }
-        return `
-    <div class="card" id="${item.id}">
-      <div class="card__image-container">
-        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
-      </div>
-      <div class="card__content">
-        <p>${item.object_name}</p>
-        <p>${item.description}</p>
-      </div>
-      <div class="card__info">
-        <p>${item.value}</p>
-      </div>
-      <div class="card__status">
-        <p>${item.status}</p>
-      </div>
-      <div class="mercado_line">
-        ${MS_link}
-        ${OLX_link}
-      </div>
-      ${external_link}
-    </div>
-  `;
+        return process_item(item);
       }
     })
     .join("");
@@ -688,55 +640,7 @@ if (room_cards) {
   room_cards.innerHTML = objects
     .map((item) => {
       if (item.category == "quarto") {
-        let link = item.link;
-        let spacer = "";
-        let olx_link = item.olx_link;
-        const value = item.status;
-        let available =
-          !value.includes("vendid") &
-          !value.includes("doad") &
-          !value.includes("indisp");
-        if ((olx_link != undefined) & (olx_link != "") & available) {
-          OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
-        } else {
-          OLX_link = "";
-        }
-        if ((link != undefined) & (link != "") & available) {
-          link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
-          MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
-          spacer = "<br>";
-        } else {
-          link = "";
-          MS_link = "";
-        }
-        let external_link = item.external_link;
-        if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
-        } else {
-          external_link = "";
-        }
-        return `
-    <div class="card" id="${item.id}">
-      <div class="card__image-container">
-        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
-      </div>
-      <div class="card__content">
-        <p>${item.object_name}</p>
-        <p>${item.description}</p>
-      </div>
-      <div class="card__info">
-        <p>${item.value}</p>
-      </div>
-      <div class="card__status">
-        <p>${item.status}</p>
-      </div>
-      <div class="mercado_line">
-        ${MS_link}
-        ${OLX_link}
-      </div>
-      ${external_link}
-    </div>
-  `;
+        return process_item(item);
       }
     })
     .join("");
@@ -746,55 +650,7 @@ if (study_cards) {
   study_cards.innerHTML = objects
     .map((item) => {
       if (item.category == "study") {
-        let link = item.link;
-        let spacer = "";
-        let olx_link = item.olx_link;
-        const value = item.status;
-        let available =
-          !value.includes("vendid") &
-          !value.includes("doad") &
-          !value.includes("indisp");
-        if ((olx_link != undefined) & (olx_link != "") & available) {
-          OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
-        } else {
-          OLX_link = "";
-        }
-        if ((link != undefined) & (link != "") & available) {
-          link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
-          MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
-          spacer = "<br>";
-        } else {
-          link = "";
-          MS_link = "";
-        }
-        let external_link = item.external_link;
-        if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
-        } else {
-          external_link = "";
-        }
-        return `
-    <div class="card" id="${item.id}">
-      <div class="card__image-container">
-        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
-      </div>
-      <div class="card__content">
-        <p>${item.object_name}</p>
-        <p>${item.description}</p>
-      </div>
-      <div class="card__info">
-        <p>${item.value}</p>
-      </div>
-      <div class="card__status">
-        <p>${item.status}</p>
-      </div>
-      <div class="mercado_line">
-        ${MS_link}
-        ${OLX_link}
-      </div>
-      ${external_link}
-    </div>
-  `;
+        return process_item(item);
       }
     })
     .join("");
@@ -804,55 +660,7 @@ if (living) {
   living.innerHTML = objects
     .map((item) => {
       if (item.category == "sala") {
-        let link = item.link;
-        let spacer = "";
-        let olx_link = item.olx_link;
-        const value = item.status;
-        let available =
-          !value.includes("vendid") &
-          !value.includes("doad") &
-          !value.includes("indisp");
-        if ((olx_link != undefined) & (olx_link != "") & available) {
-          OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
-        } else {
-          OLX_link = "";
-        }
-        if ((link != undefined) & (link != "") & available) {
-          link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
-          MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
-          spacer = "<br>";
-        } else {
-          link = "";
-          MS_link = "";
-        }
-        let external_link = item.external_link;
-        if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
-        } else {
-          external_link = "";
-        }
-        return `
-    <div class="card" id="${item.id}">
-      <div class="card__image-container">
-        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
-      </div>
-      <div class="card__content">
-        <p>${item.object_name}</p>
-        <p>${item.description}</p>
-      </div>
-      <div class="card__info">
-        <p>${item.value}</p>
-      </div>
-      <div class="card__status">
-        <p>${item.status}</p>
-      </div>
-      <div class="mercado_line">
-        ${MS_link}
-        ${OLX_link}
-      </div>
-      ${external_link}
-    </div>
-  `;
+        return process_item(item);
       }
     })
     .join("");
@@ -862,55 +670,7 @@ if (cozinha_cards) {
   cozinha_cards.innerHTML = objects
     .map((item) => {
       if (item.category == "cozinha") {
-        let link = item.link;
-        let spacer = "";
-        let olx_link = item.olx_link;
-        const value = item.status;
-        let available =
-          !value.includes("vendid") &
-          !value.includes("doad") &
-          !value.includes("indisp");
-        if ((olx_link != undefined) & (olx_link != "") & available) {
-          OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
-        } else {
-          OLX_link = "";
-        }
-        if ((link != undefined) & (link != "") & available) {
-          link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
-          MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
-          spacer = "<br>";
-        } else {
-          link = "";
-          MS_link = "";
-        }
-        let external_link = item.external_link;
-        if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
-        } else {
-          external_link = "";
-        }
-        return `
-    <div class="card" id="${item.id}">
-      <div class="card__image-container">
-        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
-      </div>
-      <div class="card__content">
-        <p>${item.object_name}</p>
-        <p>${item.description}</p>
-      </div>
-      <div class="card__info">
-        <p>${item.value}</p>
-      </div>
-      <div class="card__status">
-        <p>${item.status}</p>
-      </div>
-      <div class="mercado_line">
-        ${MS_link}
-        ${OLX_link}
-      </div>
-      ${external_link}
-    </div>
-  `;
+        return process_item(item);
       }
     })
     .join("");
@@ -921,55 +681,7 @@ if (cozinha_cards) {
 if (allcards) {
   allcards.innerHTML = objects
     .map((item) => {
-      let link = item.link;
-      let spacer = "";
-      let olx_link = item.olx_link;
-      const value = item.status;
-      let available =
-        !value.includes("vendid") &
-        !value.includes("doad") &
-        !value.includes("indisp");
-      if ((olx_link != undefined) & (olx_link != "") & available) {
-        OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
-      } else {
-        OLX_link = "";
-      }
-      if ((link != undefined) & (link != "") & available) {
-        link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
-        MS_link = `<a href="https://ferroao.mercadoshops.com.br/nossos-produtos" class="button-72 margin small-button" target="new">MShop link</a>`;
-        spacer = "<br>";
-      } else {
-        link = "";
-        MS_link = "";
-      }
-      let external_link = item.external_link;
-      if ((external_link != undefined) & (external_link != "")) {
-        external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
-      } else {
-        external_link = "";
-      }
-      return `
-      <div class="card" id="${item.id}">
-        <div class="card__image-container">
-          <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
-        </div>
-        <div class="card__content">
-          <p>${item.object_name}</p>
-          <p>${item.description}</p>
-        </div>
-        <div class="card__info">
-          <p>${item.value}</p>
-        </div>
-        <div class="card__status">
-          <p>${item.status}</p>
-        </div>
-        <div class="mercado_line">
-          ${MS_link}
-          ${OLX_link}
-        </div>
-        ${external_link}
-      </div>
-    `;
+      return process_item(item);
     })
     .join("");
 }
@@ -1039,4 +751,56 @@ if (currentPage == "/" || currentPage == "/venda/") {
       item.classList.add("active");
     }
   }
+}
+
+function process_item(item) {
+  let link = item.link;
+  let spacer = "";
+  let olx_link = item.olx_link;
+  const value = item.status;
+  let available =
+    !value.includes("vendid") &
+    !value.includes("doad") &
+    !value.includes("indisp");
+  if ((olx_link != undefined) & (olx_link != "") & available) {
+    OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
+  } else {
+    OLX_link = "";
+  }
+  if ((link != undefined) & (link != "") & available) {
+    link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
+    MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
+    spacer = "<br>";
+  } else {
+    link = "";
+    MS_link = "";
+  }
+  let external_link = item.external_link;
+  if ((external_link != undefined) & (external_link != "")) {
+    external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
+  } else {
+    external_link = "";
+  }
+  return `
+<div class="card" id="${item.id}">
+<div class="card__image-container">
+<img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
+</div>
+<div class="card__content">
+<p>${item.object_name}</p>
+<p>${item.description}</p>
+</div>
+<div class="card__info">
+<p>${item.value}</p>
+</div>
+<div class="card__status">
+<p>${item.status}</p>
+</div>
+<div class="mercado_line">
+${MS_link}
+${OLX_link}
+</div>
+${external_link}
+</div>
+`;
 }
