@@ -68,6 +68,10 @@ select {
   }
 }
 
+.a_button_container {
+  position: relative;
+}
+
 @media only screen and (max-width: 939px) {
   .cards,
   .allcards {
@@ -83,6 +87,7 @@ select {
     gap: 15px;
     row-gap: 3px;
     margin: auto 30px;
+    position: relative;
   }
 }
 
@@ -383,31 +388,122 @@ footer p {
   line-height: 21px;
 }
 
-.button-72 {
-  display: inline-block;
+.small-button {
+  display: flex;
   outline: 0;
   border: 0;
-  cursor: pointer;
   transition: box-shadow 0.15s ease, transform 0.15s ease;
   will-change: box-shadow, transform;
-  background: #fcfcfd;
-  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
-    0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
-  height: fit-content;
   padding: 5px;
   font-size: 0.8em;
   border-radius: 6px;
   color: #36395a;
   text-decoration: none;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-73 a {
+  float: left;
+  z-index: 999;
+}
+
+.button-73 {
+  background: #c7b6da;
+  box-shadow: 3px 3px 5px rgb(52, 3, 98);
+  margin: 4px;
+  cursor: pointer;
+  width: 90%;
+}
+
+.button-73 img {
+  height: 2em;
+  display: flex;
+  z-index: 0;
+}
+
+.button-73:hover {
+  box-shadow: 4px 4px 8px rgb(45, 35, 66);
+  transform: translateY(-2px);
+}
+.button-73:active {
+  box-shadow: inset 0px 3px 7px #d6d6e7;
+  transform: translateY(2px);
+}
+
+.button-72 {
+  background: rgb(227, 165, 104);
+  box-shadow: 3px 3px 4px rgb(45, 35, 66);
 }
 
 .button-72:hover {
+  box-shadow: 4px 4px 8px rgb(45, 35, 66);
+  transform: translateY(-2px);
+}
+
+.button-72:active {
+  box-shadow: inset 0px 3px 7px #d6d6e7;
+  transform: translateY(2px);
+}
+
+.button-71 {
+  background: rgb(225, 234, 0);
+  box-shadow: 3px 3px 5px rgb(125, 134, 0);
+  margin: 4px;
+}
+
+.button-72.margin {
+  margin: 4px;
+}
+
+.button-71:hover {
   box-shadow: 0px 4px 8px rgb(45 35 66 / 40%),
     0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
   transform: translateY(-2px);
 }
-.button-72:active {
+.button-71:active {
   box-shadow: inset 0px 3px 7px #d6d6e7;
   transform: translateY(2px);
+}
+
+.button-70 {
+  background: rgb(117, 168, 209);
+  box-shadow: 3px 3px 5px rgb(30, 56, 142);
+  margin: 4px;
+}
+
+.button-70:hover {
+  box-shadow: 4px 4px 8px rgb(45, 35, 66);
+  transform: translateY(-2px);
+}
+.button-70:active {
+  box-shadow: inset 0px 3px 7px #d6d6e7;
+  transform: translateY(2px);
+}
+
+.mercado_line {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin: auto 0;
+}
+
+.wa {
+  border-radius: 40px;
+  padding: 5px 6px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  background: #128c7e;
+  text-decoration: none;
+  margin: 50px 30px;
+}
+
+.wa-text {
+  color: white;
+}
+
+.fa-whatsapp {
+  color: white;
+  background-color: #128c7e;
 }

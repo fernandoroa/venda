@@ -5,8 +5,11 @@ const objects = [
     object_name: "Cadeira tipo balanço/pendurar/rede",
     description: "seminova",
     value: "140 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/para-a-sua-casa/area-externa/cadeira-tipo-balanco-pendurar-rede-1294582902?",
+    link: "https://produto.mercadolivre.com.br/MLB-3648937001-cadeira-tipo-rede-artesanal-_JM",
   },
   {
     id: "movelagua",
@@ -14,7 +17,7 @@ const objects = [
     object_name: "Móvel em MDF, para garrafão de agúa",
     description: "sem custo",
     value: "0 R",
-    status: "reservado",
+    status: "doado",
     category: "cozinha",
   },
   {
@@ -23,9 +26,11 @@ const objects = [
     object_name: "Bike Caiçara Beach",
     description: "3 x 6 marchas",
     value: "330 R",
-    status: "disponível",
+    status: "vendida",
     category: "outros",
     link: "https://shorturl.at/joyKU",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/esportes-e-fitness/quadra-e-ao-ar-livre/bike-caicara-beach-3-x-6-marchas-1294584822?",
   },
   {
     id: "patins",
@@ -33,7 +38,7 @@ const objects = [
     object_name: "Patins",
     description: "",
     value: "100 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -42,7 +47,7 @@ const objects = [
     object_name: "6x Tampas de vidro temperado avulsas",
     description: "A maioria Tramontina",
     value: "15 R cada",
-    status: "disponível",
+    status: "indisponível",
     category: "cozinha",
   },
   {
@@ -51,7 +56,7 @@ const objects = [
     object_name: "Apoio para pés",
     description: "pouco uso",
     value: "80 R",
-    status: "disponível",
+    status: "indisponível",
     category: "study",
   },
   {
@@ -60,7 +65,7 @@ const objects = [
     object_name: "bombona 80L com torneira",
     description: "",
     value: "80 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -69,7 +74,7 @@ const objects = [
     object_name: "Fogareiro e gas",
     description: "pouco uso",
     value: "90 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -78,7 +83,7 @@ const objects = [
     object_name: "Estante",
     description: "sem custo",
     value: "0 R",
-    status: "reservado",
+    status: "doado",
     category: "study",
   },
   {
@@ -87,7 +92,7 @@ const objects = [
     object_name: "Astro, luz de várias cores",
     description: "controle remoto",
     value: "60 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -96,7 +101,7 @@ const objects = [
     object_name: "3 ferramentas de jardim",
     description: "",
     value: "12 R (cada uma)",
-    status: "tesoura reservada, 2 disponíveis",
+    status: "indisponĩvel",
     category: "outros",
   },
   {
@@ -105,7 +110,7 @@ const objects = [
     object_name: "Snorkel de 1 peça, de superficie",
     description: "Decathlon",
     value: "120 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -114,7 +119,7 @@ const objects = [
     object_name: "2x perneiras",
     description: "",
     value: "12 R (cada par)",
-    status: "reservado",
+    status: "vendido",
     category: "outros",
   },
   {
@@ -123,7 +128,7 @@ const objects = [
     object_name: "Botijão de Gas 13kg",
     description: "2 a 3kg de gas (20%)",
     value: "200 R",
-    status: "disponível",
+    status: "indisponível",
     category: "cozinha",
     link: "https://acortar.link/rMKWrS",
   },
@@ -133,7 +138,9 @@ const objects = [
     object_name: "Serra tico tico",
     description: "para cortes curvos. + serras manuais",
     value: "140 R",
-    status: "disponível",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/materiais-de-construcao/ferramentas-de-construcao/serra-tico-tico-1295156338?",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -142,7 +149,7 @@ const objects = [
     object_name: "3x cobertor",
     description: "l̶a̶r̶a̶n̶j̶a̶, azul, l̶i̶l̶a̶s̶",
     value: "20 R (cada um)",
-    status: "2 reservado, 1 livre",
+    status: "indisponível",
     category: "quarto",
   },
   {
@@ -151,16 +158,16 @@ const objects = [
     object_name: "Ferro Black&Decker 560",
     description: "Vapor",
     value: "40 R",
-    status: "disponível",
+    status: "doado",
     category: "outros",
   },
   {
     id: "carrinho",
     filename: "carrinho.jpeg",
     object_name: "Carrinho de Compras",
-    description: "",
-    value: "25 R",
-    status: "disponível",
+    description: "sem custo",
+    value: "0 R",
+    status: "doado",
     category: "cozinha",
   },
   {
@@ -169,7 +176,7 @@ const objects = [
     object_name: "Varal",
     description: "",
     value: "60 R",
-    status: "disponível",
+    status: "doado",
     category: "outros",
   },
   {
@@ -178,7 +185,7 @@ const objects = [
     object_name: "Porta chaves",
     description: "Madeira, rustico",
     value: "30 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -187,9 +194,11 @@ const objects = [
     description: "+ brocas",
     object_name: "Furadeira Tramontina 500W 220V",
     value: "100 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
     link: "https://acortar.link/KBHmYa",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/materiais-de-construcao/ferramentas-de-construcao/furadeira-tramontina-500w-220v-1294581775?",
   },
   {
     id: "colchaosolteiro",
@@ -206,8 +215,10 @@ const objects = [
     object_name: "Climatizador Sixxis",
     description: "Pouco uso",
     value: "1000 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/eletro/ventiladores-e-climatizadores/climatizador-sixxis-sx015a-1294585904?",
     link: "https://acortar.link/yUkyqC",
   },
   {
@@ -216,7 +227,7 @@ const objects = [
     object_name: "Zapateiro de madeira",
     value: "80 R",
     description: "",
-    status: "disponível",
+    status: "indisponível",
     category: "sala",
   },
   {
@@ -225,7 +236,7 @@ const objects = [
     object_name: "3 x nichos brancos 80cm",
     description: "MDF",
     value: "100 R",
-    status: "disponível",
+    status: "vendido",
     category: "sala",
   },
   {
@@ -234,7 +245,7 @@ const objects = [
     description: "O painel tem riscos que ficam ocultos com TV",
     object_name: "Rack TV / painel / Germai / rodinhas",
     value: "250 R",
-    status: "disponível",
+    status: "vendido",
     category: "sala",
     link: "https://acortar.link/pkYgqR",
   },
@@ -244,7 +255,9 @@ const objects = [
     description: "O corino das cadeiras tem rasgões pequenos",
     object_name: "Mesa vidro/metálica 4 cadeiras",
     value: "280 R",
-    status: "disponível",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/mesas/mesa-393-vidro-incolor-cromada-com-4-cadeiras-154-1294563791?",
+    status: "doado",
     category: "sala",
     link: "https://acortar.link/YInwqb",
   },
@@ -254,8 +267,10 @@ const objects = [
     description: "tem rasgão de 6cm",
     object_name: "Sofá 3 lugares corino",
     value: "300 R",
-    status: "disponível",
+    status: "doado",
     category: "sala",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/sofas-e-poltronas/conjunto-sofa-hellen-turquia-3-e-2-lugares-1294561846?",
     link: "https://shorturl.at/fgoGH",
   },
   {
@@ -264,8 +279,10 @@ const objects = [
     object_name: "Sofá 2 lugares corino",
     description: "",
     value: "200 R",
-    status: "disponível",
+    status: "doado",
     category: "sala",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/sofas-e-poltronas/conjunto-sofa-hellen-turquia-3-e-2-lugares-1294561846?",
     link: "https://shorturl.at/fgoGH",
   },
   {
@@ -274,9 +291,11 @@ const objects = [
     object_name: "Cadeira Presidente Way Gamer Cavaletti",
     description: "",
     value: "2000 R",
-    status: "disponível",
+    status: "indisponível",
     category: "study",
     link: "https://acortar.link/DmAyFk",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/cadeiras-de-escritorio-e-gamer/cadeira-presidente-cavaletti-way-gamer-1294571947?",
   },
   {
     id: "bombape",
@@ -284,7 +303,7 @@ const objects = [
     description: "",
     object_name: "Bomba de pé para colchão Quechua",
     value: "50 R",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -293,7 +312,7 @@ const objects = [
     description: "",
     object_name: "colchão inflável casal",
     value: "50 R",
-    status: "reservado",
+    status: "vendido",
     category: "outros",
   },
   {
@@ -303,9 +322,11 @@ const objects = [
     description:
       "Subwoofer grande + 5 caixas /Netflix com cabo rede / USB / Karaoke",
     value: "500 R",
-    status: "disponível",
+    status: "vendido",
     category: "sala",
     link: "https://acortar.link/RS60kH",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/tvs-e-video/dvd-blu-ray-video-cassete/home-theater-blu-ray-samsung-2-pedestais-subwoofer-grande-5-caixas-netflix-com-cabo-1294573208?",
   },
   {
     id: "geladeira",
@@ -313,9 +334,11 @@ const objects = [
     object_name: "Geladeira Consul CRD36",
     description: "Não precisa desgelar",
     value: "800 R",
-    status: "disponível",
+    status: "doado",
     category: "cozinha",
     link: "https://acortar.link/Ikya3x",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/eletro/geladeiras-e-freezers/geladeira-consul-crd36-1294578643?",
   },
   {
     id: "microondas",
@@ -323,7 +346,7 @@ const objects = [
     object_name: "Microondas Panasonic NN-ST27L",
     description: "Pouco uso",
     value: "400 R",
-    status: "reservado",
+    status: "vendido no MShop",
     category: "cozinha",
   },
   {
@@ -332,9 +355,11 @@ const objects = [
     object_name: "Fogão Esmaltec Topázio",
     description: "o timer não funciona",
     value: "450 R",
-    status: "disponível",
+    status: "doado",
     category: "cozinha",
     link: "https://acortar.link/5Nsvi8",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/eletro/fogoes-e-fornos/fogao-esmaltec-topazio-1294578567?",
   },
   {
     id: "escrivaninha",
@@ -342,9 +367,11 @@ const objects = [
     object_name: "Escrivaninha metal/MDF/plástico/teclado/gavetas/chave",
     description: "",
     value: "170 R",
-    status: "disponível",
+    status: "doado",
     category: "study",
     link: "https://acortar.link/huQmJh",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/cadeiras-de-escritorio-e-gamer/escrivaninha-2-gavetas-1294570863?",
   },
   {
     id: "comoda",
@@ -352,7 +379,7 @@ const objects = [
     description: "45cm x 93(a) x 98 / defeito (10 x 20cm) no canto direito",
     object_name: "Cômoda em Madeira",
     value: "300 R",
-    status: "disponível",
+    status: "vendido",
     category: "quarto",
     link: "https://shorturl.at/hiqG8",
   },
@@ -364,7 +391,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "doado",
     category: "cozinha",
   },
   {
@@ -386,7 +413,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "reservado",
+    status: "vendido",
     category: "cozinha",
   },
   {
@@ -396,8 +423,10 @@ const objects = [
     value: "400 R",
     description: "ou 70-90 R por peça/algumas peças sem uso",
     link: "https://acortar.link/wHax7u",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/para-a-sua-casa/utensilios-para-cozinha/panelas-brinox-ceramic-life-1294576757?",
     external_link: "",
-    status: "disponível",
+    status: "vendido",
     category: "cozinha",
   },
   {
@@ -408,7 +437,9 @@ const objects = [
     description: "Netflix, youtube",
     link: "https://shorturl.at/bquvL",
     external_link: "",
-    status: "disponível",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/tvs-e-video/tvs/samsung-tv-48-pol-serie-6-3d-6800-1294574050?",
+    status: "vendido",
     category: "sala",
   },
   {
@@ -419,7 +450,9 @@ const objects = [
     description: "",
     link: "https://acortar.link/Q5c9Wb",
     external_link: "https://acortar.link/POPZ9z",
-    status: "disponível",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/informatica/monitores/tela-acer-gamer-xv280k-cabo-thunderbolt-1294574498?",
+    status: "indisponível",
     category: "study",
   },
   {
@@ -430,7 +463,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "vendido",
     category: "study",
   },
   {
@@ -439,9 +472,11 @@ const objects = [
     object_name: "Cadeira plastico, pés alumino",
     value: "200 R",
     description: "",
-    link: "",
+    link: "https://produto.mercadolivre.com.br/MLB-3648948155-cadeira-pes-aluminio-_JM",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/cadeiras-de-escritorio-e-gamer/cadeira-plasnew-pes-aluminio-1294571257?",
     external_link: "",
-    status: "disponível",
+    status: "vendido",
     category: "study",
   },
   {
@@ -470,11 +505,11 @@ const objects = [
     id: "barraca",
     filename: "barraca.jpeg",
     object_name: "Barraca Arpenaz (Decathlon) 2 pessoas",
-    value: "200 R",
+    value: "300 R",
     description: "pouco uso",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -485,7 +520,7 @@ const objects = [
     description: "crie rede wifi com um chip",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "indisponível",
     category: "outros",
   },
   {
@@ -495,8 +530,10 @@ const objects = [
     value: "120 R",
     description: "+ transf 220 -> 110V (mod. isol.)",
     link: "https://acortar.link/pgz1If",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/informatica/perifericos-de-computador/impressora-a-cor-multifuncional-epson-stylus-tx115-1294573796?",
     external_link: "",
-    status: "disponível",
+    status: "indisponível",
     category: "study",
   },
   {
@@ -507,7 +544,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "doado",
     category: "quarto",
   },
   {
@@ -518,7 +555,9 @@ const objects = [
     description: "2 niveis de agua",
     link: "https://acortar.link/j276MV",
     external_link: "",
-    status: "disponível",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/eletro/maquinas-de-lavar-e-secadoras/maquina-lavar-brastemp-8kg-clean-bwc08-1294584602?",
+    status: "doado",
     category: "outros",
   },
   {
@@ -529,7 +568,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "reservado",
+    status: "vendido",
     category: "outros",
   },
   {
@@ -540,7 +579,7 @@ const objects = [
     description: "",
     link: "",
     external_link: "",
-    status: "disponível",
+    status: "vendido",
     category: "quarto",
   },
   {
@@ -549,9 +588,11 @@ const objects = [
     object_name: "Colchão Casal",
     value: "450 R",
     description: "pequenos rasgões na superficie",
-    link: "",
+    link: "https://ferroao.mercadoshops.com.br/",
     external_link: "",
-    status: "reservado (prioridade combo)",
+    olx_link:
+      "https://go.olx.com.br/grande-goiania-e-anapolis/moveis/camas-e-colchoes/colchao-americanflex-d33-pro-coluna-goiania-1294508204?",
+    status: "vendido",
     category: "quarto",
   },
   {
@@ -562,7 +603,7 @@ const objects = [
     description: "pequenos rasgões na superficie do colchão",
     link: "https://acortar.link/ke1sZl",
     external_link: "",
-    status: "disponível",
+    status: "vendido",
     category: "quarto",
   },
 ];
@@ -581,7 +622,6 @@ const room_cards = document.querySelector(".room_cards");
 const others_cards = document.querySelector(".others_cards");
 const cozinha_cards = document.querySelector(".cozinha_cards");
 const study_cards = document.querySelector(".study_cards");
-
 const allcards = document.querySelector(".allcards");
 
 /* categorys only */
@@ -590,39 +630,7 @@ if (others_cards) {
   others_cards.innerHTML = objects
     .map((item) => {
       if (item.category == "outros") {
-        let link = item.link;
-        let spacer = "";
-        if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} target="new">ML link</a>`;
-          spacer = "<br>";
-        } else {
-          link = "";
-        }
-        let external_link = item.external_link;
-        if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} target="new">link externo</a>`;
-        } else {
-          external_link = "";
-        }
-        return `
-    <div class="card" id="${item.id}">
-      <div class="card__image-container">
-        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
-      </div>
-      <div class="card__content">
-        <p>${item.object_name}</p>
-        <p>${item.description}</p>
-      </div>
-      <div class="card__info">
-        <p>${item.value}</p>
-      </div>
-      <div class="card__status">
-        <p>${item.status}</p>
-      </div>
-      ${link}
-      ${external_link}
-    </div>
-  `;
+        return process_item(item);
       }
     })
     .join("");
@@ -632,39 +640,7 @@ if (room_cards) {
   room_cards.innerHTML = objects
     .map((item) => {
       if (item.category == "quarto") {
-        let link = item.link;
-        let spacer = "";
-        if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} target="new">ML link</a>`;
-          spacer = "<br>";
-        } else {
-          link = "";
-        }
-        let external_link = item.external_link;
-        if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} target="new">link externo</a>`;
-        } else {
-          external_link = "";
-        }
-        return `
-    <div class="card" id="${item.id}">
-      <div class="card__image-container">
-        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
-      </div>
-      <div class="card__content">
-        <p>${item.object_name}</p>
-        <p>${item.description}</p>
-      </div>
-      <div class="card__info">
-        <p>${item.value}</p>
-      </div>
-      <div class="card__status">
-        <p>${item.status}</p>
-      </div>
-      ${link}
-      ${external_link}
-    </div>
-  `;
+        return process_item(item);
       }
     })
     .join("");
@@ -674,39 +650,7 @@ if (study_cards) {
   study_cards.innerHTML = objects
     .map((item) => {
       if (item.category == "study") {
-        let link = item.link;
-        let spacer = "";
-        if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} target="new">ML link</a>`;
-          spacer = "<br>";
-        } else {
-          link = "";
-        }
-        let external_link = item.external_link;
-        if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} target="new">link externo</a>`;
-        } else {
-          external_link = "";
-        }
-        return `
-    <div class="card" id="${item.id}">
-      <div class="card__image-container">
-        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
-      </div>
-      <div class="card__content">
-        <p>${item.object_name}</p>
-        <p>${item.description}</p>
-      </div>
-      <div class="card__info">
-        <p>${item.value}</p>
-      </div>
-      <div class="card__status">
-        <p>${item.status}</p>
-      </div>
-      ${link}
-      ${external_link}
-    </div>
-  `;
+        return process_item(item);
       }
     })
     .join("");
@@ -716,39 +660,7 @@ if (living) {
   living.innerHTML = objects
     .map((item) => {
       if (item.category == "sala") {
-        let link = item.link;
-        let spacer = "";
-        if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} target="new">ML link</a>`;
-          spacer = "<br>";
-        } else {
-          link = "";
-        }
-        let external_link = item.external_link;
-        if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} target="new">link externo</a>`;
-        } else {
-          external_link = "";
-        }
-        return `
-    <div class="card" id="${item.id}">
-      <div class="card__image-container">
-        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
-      </div>
-      <div class="card__content">
-        <p>${item.object_name}</p>
-        <p>${item.description}</p>
-      </div>
-      <div class="card__info">
-        <p>${item.value}</p>
-      </div>
-      <div class="card__status">
-        <p>${item.status}</p>
-      </div>
-      ${link}
-      ${external_link}
-    </div>
-  `;
+        return process_item(item);
       }
     })
     .join("");
@@ -758,39 +670,7 @@ if (cozinha_cards) {
   cozinha_cards.innerHTML = objects
     .map((item) => {
       if (item.category == "cozinha") {
-        let link = item.link;
-        let spacer = "";
-        if ((link != undefined) & (link != "")) {
-          link = `<a href=${link} target="new">ML link</a>`;
-          spacer = "<br>";
-        } else {
-          link = "";
-        }
-        let external_link = item.external_link;
-        if ((external_link != undefined) & (external_link != "")) {
-          external_link = `${spacer}<a href=${external_link} target="new">link externo</a>`;
-        } else {
-          external_link = "";
-        }
-        return `
-    <div class="card" id="${item.id}">
-      <div class="card__image-container">
-        <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
-      </div>
-      <div class="card__content">
-        <p>${item.object_name}</p>
-        <p>${item.description}</p>
-      </div>
-      <div class="card__info">
-        <p>${item.value}</p>
-      </div>
-      <div class="card__status">
-        <p>${item.status}</p>
-      </div>
-      ${link}
-      ${external_link}
-    </div>
-  `;
+        return process_item(item);
       }
     })
     .join("");
@@ -801,39 +681,7 @@ if (cozinha_cards) {
 if (allcards) {
   allcards.innerHTML = objects
     .map((item) => {
-      let link = item.link;
-      let spacer = "";
-      if ((link != undefined) & (link != "")) {
-        link = `<a href=${link} target="new">ML link</a>`;
-        spacer = "<br>";
-      } else {
-        link = "";
-      }
-      let external_link = item.external_link;
-      if ((external_link != undefined) & (external_link != "")) {
-        external_link = `${spacer}<a href=${external_link} target="new">link externo</a>`;
-      } else {
-        external_link = "";
-      }
-      return `
-      <div class="card" id="${item.id}">
-        <div class="card__image-container">
-          <img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
-        </div>
-        <div class="card__content">
-          <p>${item.object_name}</p>
-          <p>${item.description}</p>
-        </div>
-        <div class="card__info">
-          <p>${item.value}</p>
-        </div>
-        <div class="card__status">
-          <p>${item.status}</p>
-        </div>
-        ${link}
-        ${external_link}
-      </div>
-    `;
+      return process_item(item);
     })
     .join("");
 }
@@ -845,7 +693,11 @@ for (let card of cards) {
   const value = card
     .querySelector(".card__status")
     .querySelector("p").innerHTML;
-  if (value == "vendido") {
+  if (
+    value.includes("vendid") ||
+    value.includes("doad") ||
+    value.includes("indisp")
+  ) {
     let image_container = card.querySelector(".card__image-container");
     image_container.appendChild(document.createElement("div"));
     image_container.querySelector("div").classList.add("outer");
@@ -856,6 +708,11 @@ for (let card of cards) {
     image_container.querySelector("div").classList.add("loader");
   }
 }
+
+/* Cancel main Mshop button with X*/
+let ML_button = document.querySelectorAll(".a_button_container")[0];
+ML_button.appendChild(document.createElement("div"));
+ML_button.querySelector("div").classList.add("outer");
 
 const modalOverlay = document.querySelector(".modal-overlay");
 
@@ -894,4 +751,56 @@ if (currentPage == "/" || currentPage == "/venda/") {
       item.classList.add("active");
     }
   }
+}
+
+function process_item(item) {
+  let link = item.link;
+  let spacer = "";
+  let olx_link = item.olx_link;
+  const value = item.status;
+  let available =
+    !value.includes("vendid") &
+    !value.includes("doad") &
+    !value.includes("indisp");
+  if ((olx_link != undefined) & (olx_link != "") & available) {
+    OLX_link = `<a href=${olx_link} target="new"><button class="button-73 margin small-button"><img src="public/olx.svg"></button></a>`;
+  } else {
+    OLX_link = "";
+  }
+  if ((link != undefined) & (link != "") & available) {
+    link = `<a href=${link} class="button-71 small-button" target="new">ML link</a>`;
+    MS_link = `<a href="https://ferroao.mercadoshops.com.br" class="button-72 margin small-button" target="new">MShop link</a>`;
+    spacer = "<br>";
+  } else {
+    link = "";
+    MS_link = "";
+  }
+  let external_link = item.external_link;
+  if ((external_link != undefined) & (external_link != "")) {
+    external_link = `${spacer}<a href=${external_link} class="button-70" target="new">link externo</a>`;
+  } else {
+    external_link = "";
+  }
+  return `
+<div class="card" id="${item.id}">
+<div class="card__image-container">
+<img src="pictures/${item.filename}" width="100%" alt="${item.object_name}">
+</div>
+<div class="card__content">
+<p>${item.object_name}</p>
+<p>${item.description}</p>
+</div>
+<div class="card__info">
+<p>${item.value}</p>
+</div>
+<div class="card__status">
+<p>${item.status}</p>
+</div>
+<div class="mercado_line">
+${MS_link}
+${OLX_link}
+</div>
+${external_link}
+</div>
+`;
 }
